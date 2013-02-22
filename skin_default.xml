@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.06 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.07 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -1439,7 +1439,7 @@ self.autoResize()
 	</screen>
 	<screen name="EventView" position="center,e-260" size="980,250" backgroundColor="transparent" flags="wfNoBorder" zPosition="1" >
 		<ePixmap position="0,0" zPosition="-1" size="980,250" pixmap="infobar/event-info-bg.png" alphatest="on" />
-		<widget name="channel" position="50,8" size="400,30" font="Boldit;30" valign="center" halign="left" noWrap="1" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" zPosition="1" />
+		<widget source="Title" render="Label" position="50,8" size="400,30" font="Boldit;30" valign="center" halign="left" noWrap="1" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" zPosition="1" />
 		<ePixmap pixmap="icons/clock.png" position="820,12" zPosition="1" size="20,20" alphatest="blend" />
 		<widget source="global.CurrentTime" render="Label" position="838,14" zPosition="1" size="59,20" font="Regular;21" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" valign="top" halign="right" transparent="1" noWrap="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
@@ -1449,7 +1449,7 @@ self.autoResize()
 		</widget>
 		<widget name="datetime" position="510,14" size="250,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
 		<widget name="duration" position="760,14" size="150,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
-		<widget name="epg_description" position="54,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
+		<widget name="FullDescription" position="54,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
 		<widget name="red" pixmap="buttons/red.png" position="100,213" size="25,25" alphatest="blend" zPosition="3" />
 		<widget name="key_red" position="140,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1" />
 		<widget name="green"  pixmap="buttons/green.png" position="300,213" size="25,25" alphatest="blend" />
@@ -1461,7 +1461,7 @@ self.autoResize()
 	</screen>
 	<screen name="EventViewSimple" position="center,e-260" size="980,250" backgroundColor="transparent" flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="-1" size="980,250" pixmap="infobar/event-info-bg.png" />
-		<widget name="channel" position="50,8" size="400,30" font="Boldit;30" valign="center" halign="left" noWrap="1" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" />
+		<widget source="Title" render="Label" position="50,8" size="400,30" font="Boldit;30" valign="center" halign="left" noWrap="1" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" />
 		<ePixmap pixmap="icons/clock.png" position="820,12" zPosition="1" size="20,20" alphatest="blend" />
 		<widget source="global.CurrentTime" render="Label" position="838,14" zPosition="1" size="59,20" font="Regular;21" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" valign="top" halign="right" transparent="1" noWrap="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
@@ -1471,14 +1471,14 @@ self.autoResize()
 		</widget>
 		<widget name="datetime" position="510,14" size="250,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
 		<widget name="duration" position="760,14" size="150,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
-		<widget name="epg_description" position="55,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
+		<widget name="FullDescription" position="55,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
 	</screen>
 	<screen name="InfoBarEventView" position="0,0" size="1280,250" backgroundColor="infobar_sunken" flags="wfNoBorder" zPosition="1" >
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,50" zPosition="-1" />
-		<widget name="channel"  position="20,10" size="850,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
+		<widget source="Title" render="Label" position="20,10" size="850,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
 		<widget name="datetime" position="810,18" size="250,26" font="Regular;26" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
 		<widget name="duration" position="1060,18" size="150,26" font="Regular;26" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left" />
-		<widget name="epg_description" position="10,50" size="1260,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
+		<widget name="FullDescription" position="10,50" size="1260,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
 	</screen>
 	<screen name="EventViewContextMenu" position="center,center" size="560,550" flags="wfBorder">
 		<widget name="menu"  render="Listbox" position="0,0" size="560,533" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand">
@@ -1593,7 +1593,7 @@ self.autoResize()
 			<convert type="ClockToText">AsLength</convert>
 		</widget>
 		<widget source="Service" render="Label" position="695,445" size="570,210" font="Regular;20" backgroundColor="black" foregroundColor="window-fg" transparent="0" valign="top" zPosition="2">
-			<convert type="MovieInfo">ShortDescription</convert>
+			<convert type="MovieInfo">MetaDescription</convert>
 		</widget>
 		<widget name="freeDiskSpace" position="870,660" size="400,20" font="Regular;18" backgroundColor="window-sel-fg" valign="center" halign="right" zPosition="2" transparent="1" />
 		<widget name="TrashcanSize" position="695,660" size="400,20" font="Regular;18" backgroundColor="window-sel-fg" valign="center" halign="left" zPosition="2" transparent="1" />
@@ -1617,7 +1617,7 @@ self.autoResize()
 			<convert type="ClockToText">AsLength</convert>
 		</widget>
 		<widget source="Service" render="Label" position="10,555" size="498,90" font="Regular;19" backgroundColor="black" foregroundColor="window-fg" valign="top" zPosition="1" transparent="1">
-			<convert type="MovieInfo">ShortDescription</convert>
+			<convert type="MovieInfo">MetaDescription</convert>
 		</widget>
 		<panel name="MenuRed1Panel" />
 		<panel name="MenuGreen1Panel" />
