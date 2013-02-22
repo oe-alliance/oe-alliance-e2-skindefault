@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.05 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.06 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2335,18 +2335,16 @@ self.autoResize()
 	</screen>
 	<screen name="OscamInfoMenu" position="center,center" size="560,550" flags="wfBorder">
 		<widget name="mainmenu" position="0,0" size="560,450" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
-		</screen>
-		<screen name="oscECMInfo" position="center,center" size="560,550" flags="wfBorder">
+	</screen>
+	<screen name="oscECMInfo" position="center,center" size="560,550" flags="wfBorder">
 		<widget name="output" position="0,0" size="560,450" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
-		</screen>
-		<screen name="OscamInfoConfigScreen" position="center,center" size="560,550" flags="wfBorder">
+	</screen>
+	<screen name="OscamInfoConfigScreen" position="center,center" size="560,550" flags="wfBorder">
 		<widget name="config" position="0,0" size="560,250" foregroundColor="window-fg" backgroundColor="window-bg" scrollbarMode="showOnDemand" transparent="0" />
 		<widget name="status" position="10,390" size="503,240" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
 		<panel name="MenuRed2Panel" />
 		<panel name="MenuGreen2Panel" />
 	</screen>
-
-
 	<screen name="LogManager" position="center,center" size="560,400" title="Log Manager" flags="wfBorder">
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
