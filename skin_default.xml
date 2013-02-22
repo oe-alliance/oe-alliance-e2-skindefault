@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.04 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.05 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2473,7 +2473,6 @@ self.autoResize()
 	<screen name="NetworkFtp" position="center,center" size="340,310">
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
-		<panel name="MenuYellow3Panel" />
 		<widget name="lab1" position="20,50" size="300,80" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="lab2" position="20,170" size="150,30" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="labstop" position="170,170" size="100,30" font="Regular;20" valign="center"  halign="center" backgroundColor="red"/>
