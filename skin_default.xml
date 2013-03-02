@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.08 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.09 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -1008,6 +1008,11 @@
 		<widget source="lab3" render="Label" position="30,60" size="458,25" font="Italic;19" transparent="0" zPosition="1" />
 		<widget name="AboutScrollLabel" position="30,90" size="458,325" font="Regular;20" transparent="0" zPosition="1" />
 		<ePixmap pixmap="buttons/key_info.png" position="e-35,0" size="35,25" alphatest="blend" transparent="1" />
+	</screen>
+	<screen name="TranslationInfo" position="center,center" size="420,350" title="Translation">
+		<eLabel position="10,20" size="380,23" font="Regular;23" text="Translation:" />
+		<widget source="TranslatorName" render="Label" position="10,55" size="380,20" font="Regular;20" />
+		<widget source="TranslationInfo" render="Label" position="10,100" size="380,250" font="Regular;20" />
 	</screen>
 	<screen name="SystemMemoryInfo" position="center,center" size="560,400" >
 		<widget source="lab1" render="Label" position="30,0" size="458,25" font="Boldit;24" transparent="0" zPosition="2" />
