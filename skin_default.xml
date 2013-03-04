@@ -2358,6 +2358,13 @@ self.autoResize()
 		<panel name="MenuYellow1Panel" />
 		<panel name="MenuBlue1Panel" />
 	</screen>
+	<screen name="CCcamInfoConfigSwitcher" position="center,center" size="560,550" flags="wfBorder">
+		<widget name="list" position="0,0" size="560,450" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
+		<panel name="MenuRed1Panel" />
+		<panel name="MenuGreen1Panel" />
+		<panel name="MenuYellow1Panel" />
+		<panel name="MenuBlue1Panel" />
+	</screen>
 	<screen name="CCcamInfoMenuConfig" position="center,center" size="560,550" flags="wfBorder">
 		<widget name="list" position="0,0" size="560,450" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
 		<panel name="MenuRed1Panel" />
