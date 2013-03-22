@@ -1368,6 +1368,7 @@ self.autoResize()
 		</widget>
 		<widget source="Title" render="Label" position="135,25" size="800,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
 		<panel name="FullscreenPIGPanel" />
+		<widget name="bouquetlist" position="20,130" size="660,540" foregroundColor="window-fg" backgroundColor="window-bg" foregroundColorSelected="window-sel-fg" backgroundColorSelected="window-sel-bg" borderColor="black" scrollbarMode="showNever" zPosition="4" transparent="0" />
 		<widget name="list" position="20,130" size="660,540" zPosition="3" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1" />
 		<widget name="now_button" pixmap="epg/now_next_more.png" position="30,85" zPosition="1" size="152,34" alphatest="on" />
 		<widget name="next_button" pixmap="epg/now_next_more.png" position="186,85" zPosition="1" size="152,34" alphatest="on" />
@@ -1393,6 +1394,7 @@ self.autoResize()
 		<panel name="FullscreenTitlePanel" />
 		<widget name="lab1" position="0,70" size="1280,620" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="black" transparent="0" />
 		<widget name="timeline_text" position="0,70" size="1280,30" backgroundColor="black" foregroundColor="orange" transparent="1" zPosition="0" />
+		<widget name="bouquetlist" position="0,95" size="1280,590" foregroundColorSelected="black" scrollbarMode="showNever" zPosition="2" transparent="0" />
 		<widget name="list" position="0,95" size="1280,590" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" />
 		<widget name="timeline_now" position="0,95" zPosition="3" size="19,590" pixmap="epg/timeline-now.png" alphatest="on" />
 		<ePixmap pixmap="buttons/key_menu.png" position="20,686" size="35,25" alphatest="blend" transparent="1" zPosition="1" />
@@ -1426,6 +1428,7 @@ self.autoResize()
 		</widget>
 		<widget name="lab1" position="0,290" size="1280,390" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="black" transparent="0" />
 		<widget name="timeline_text" position="0,290" size="1280,30" backgroundColor="black" foregroundColor="orange" transparent="1" zPosition="0" />
+		<widget name="bouquetlist" position="0,73" size="877,217" backgroundColor="black" scrollbarMode="showNever" zPosition="2" transparent="0" />
 		<widget name="list" position="0,317" size="1280,360" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" />
 		<widget name="timeline_now" position="0,317" zPosition="3" size="19,360" pixmap="epg/timeline-now-pig.png" alphatest="on" />
 		<ePixmap pixmap="buttons/key_menu.png" position="20,686" size="35,25" alphatest="blend" transparent="1" zPosition="1" />
@@ -1445,6 +1448,7 @@ self.autoResize()
 		<widget source="Title" render="Label" position="20,10" size="850,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
 		<widget name="lab1" position="0,50" size="1280,115" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="black" transparent="0" />
 		<widget name="timeline_text" position="0,50" size="1280,30" backgroundColor="black" foregroundColor="orange" transparent="1" zPosition="0" />
+		<widget name="bouquetlist" position="0,75" size="1280,85" backgroundColor="black" scrollbarMode="showNever" zPosition="2" transparent="0" />
 		<widget name="list" position="0,75" size="1280,85" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" EntryFontWrap="no"/>
 		<widget name="timeline_now" position="0,75" zPosition="3" size="19,85" pixmap="epg/timeline-now.png" alphatest="on" />
 		<ePixmap pixmap="buttons/key_menu.png" position="20,166" size="35,25" alphatest="blend" transparent="1" zPosition="1" />
