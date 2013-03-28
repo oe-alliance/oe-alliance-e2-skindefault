@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.10 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.11 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -1354,6 +1354,7 @@ self.autoResize()
 		</widget>
 		<widget source="Title" render="Label" position="135,25" size="800,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
 		<panel name="FullscreenPIGPanel" />
+		<widget name="number" position="20,82" size="660,592" zPosition="5" backgroundColor="transparent" transparent="0" font="Regular;48" borderColor="black" borderWidth="2" valign="center" halign="center" />
 		<widget name="list" position="20,82" size="660,592" zPosition="3" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1" />
 		<widget source="Event" render="Label" position="695,410" size="575,250" font="Regular;22" backgroundColor="black" foregroundColor="window-fg" transparent="0" valign="top" zPosition="2">
 			<convert type="EventName">FullDescription</convert>
