@@ -1982,6 +1982,10 @@ self.autoResize()
 		<ePixmap pixmap="screens/volume_background.png" position="0,0" size="320,68" alphatest="on" />
 		<widget name="Volume" pixmap="screens/volume_up.png" position="62,14" zPosition="1" size="240,34" transparent="1" />
 	</screen>
+	<!-- VideoMode -->
+	<screen name="VideoMode" position="center,center" size="250,60" title="VideoMode">
+		<widget name="videomode" position="10,10" size="230,40" font="Regular;23" halign="left" />
+	</screen>
 	<screen name="VirtualKeyBoard" position="center,center" size="560,350" zPosition="99">
 		<ePixmap pixmap="vkey_text.png" position="9,35" zPosition="-4" size="542,52" alphatest="on" />
 		<widget name="header" position="10,10" size="500,20" font="Regular;20" transparent="1" noWrap="1" />
