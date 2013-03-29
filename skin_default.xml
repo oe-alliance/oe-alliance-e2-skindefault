@@ -1055,8 +1055,11 @@
 	<screen name="AboutReleaseNotes" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,526" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
 	</screen>
-	<screen name="ServiceInfo" position="250,125" size="700,510" backgroundColor="window-bg">
-		<widget name="infolist" position="00,0" size="700,460" itemHeight="36" selectionDisabled="1" transparent="0" />
+	<screen name="ServiceInfoSimple" position="center,center" size="650,300" title="Service info">
+		<widget name="infolist" position="0,0" size="650,300" selectionDisabled="1" />
+	</screen>
+	<screen name="ServiceInfo" position="center,center" size="780,350" title="Service info">
+		<panel name="ServiceInfoSimple"/>
 		<ePixmap pixmap="buttons/red.png" position="c-280,e-40" size="140,40" alphatest="on" />
 		<widget name="red" position="c-280,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 		<ePixmap pixmap="buttons/green.png" position="c-140,e-40" size="140,40" alphatest="on" />
