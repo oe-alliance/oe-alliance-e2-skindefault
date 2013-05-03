@@ -1945,7 +1945,7 @@ self.autoResize()
 		<widget name="oktext" position="280,0" zPosition="1" size="115,24" font="Regular;19" halign="center" valign="center" transparent="1" />
 		<widget name="config" position="10,40" transparent="0" size="380,150" />
 	</screen>
-	<screen name="PTSTimeshiftState" position="center,e-248" zPosition="2" size="671,90" backgroundColor="transpBlack" flags="wfNoBorder">
+	<screen name="TimeshiftState" position="center,e-248" zPosition="2" size="671,90" backgroundColor="transpBlack" flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="1" size="671,90" pixmap="screens/pts-bg.png" />
 		<widget source="session.CurrentService" render="Label" position="25,15" size="200,27" font="Regular;20" halign="left" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" zPosition="3" >
 			<convert type="ServicePosition">Position</convert>
@@ -1953,30 +1953,14 @@ self.autoResize()
 		<widget source="session.CurrentService" render="Label" position="e-145,15" size="120,27" font="Regular;20" halign="right" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" zPosition="3" >
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<widget name="PTSSeekBack" position="25,43" size="641,15" pixmap="slider_back.png" alphatest="on" zPosition="1"/>
-		<widget name="PTSSeekPointer" position="10,40" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="3" />
-		 <widget source="session.CurrentService" render="Progress" position="25,43" size="641,15" zPosition="2" pixmap="slider.png" transparent="1">
+		<widget name="PTSSeekBack" position="25,43" size="621,15" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
+		<widget name="PTSSeekPointer" position="10,40" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4" />
+		 <widget source="session.CurrentService" render="Progress" position="25,43" size="621,15" zPosition="3" pixmap="slider.png" transparent="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget name="statusicon" position="25,60" size="20,20" pixmaps="icons/play.png,icons/pause.png,icons/stop.png,icons/forward.png,icons/backward.png,icons/slow.png" zPosition="5" alphatest="on" />
 		<widget name="speed" position="55,62" size="80,15" font="Regular;17" halign="left" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" zPosition="5" />
 		<widget name="eventname" position="75,60" size="521,25" font="Regular;18" halign="center" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" zPosition="2" />
-	</screen>
-	<screen name="TimeshiftState" position="90,50" zPosition="2" size="216,74" backgroundColor="transparent" flags="wfNoBorder" transparent="0">
-		<ePixmap position="0,0" zPosition="1" size="216,74" pixmap="screens/timeshift-bg.png" />
-		<widget name="statusicon" position="20,15" size="20,20" zPosition="3" alphatest="on" pixmaps="icons/play.png,icons/pause.png,icons/stop.png,icons/forward.png,icons/backward.png,icons/slow.png" />
-		<widget name="speed" position="45,18" size="80,18" font="Regular;17" halign="left" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" zPosition="4" />
-		<widget name="state" position="0,0" size="0,0" />
-		<widget source="session.CurrentService" render="Label" position="88,17" size="50,20" font="Regular;17" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" halign="center" transparent="1" zPosition="2" valign="top">
-			<convert type="ServicePosition">Remaining</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="140,17" size="50,20" font="Regular;17" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" halign="right" transparent="1" zPosition="2" valign="top">
-			<convert type="ServicePosition">Length</convert>
-		</widget>
-		<ePixmap position="23,35" size="170,15" zPosition="2" pixmap="slider_back.png" alphatest="on" />
-		<widget source="session.CurrentService" render="Progress" position="23,35" size="170,15" zPosition="3" pixmap="slider.png" transparent="1">
-			<convert type="ServicePosition">Position</convert>
-		</widget>
 	</screen>
 	<screen name="PVRState" position="92,50" zPosition="2" size="88,88" backgroundColor="transparent" flags="wfNoBorder" transparent="0">
 		<ePixmap position="0,0" zPosition="1" size="88,88" pixmap="screens/pvr-bg.png" />
