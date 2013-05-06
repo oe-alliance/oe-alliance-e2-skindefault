@@ -1311,9 +1311,9 @@
 self.autoResize()
 		</applet>
 	</screen>
-	<screen name="RecordTimerQuestion" position="center,center" size="240,70" zPosition="5" flags="wfNoBorder" >
+	<screen name="RecordTimerQuestion" position="center,center" size="380,70" zPosition="5" flags="wfNoBorder" >
 		<widget name="text" position="0,0" size="0,0" font="Regular;22" />
-		<widget name="list" position="10,10" size="220,50" enableWrapAround="1" />
+		<widget name="list" position="10,10" size="360,50" enableWrapAround="1" />
 	</screen>
 	<screen name="MMIDialog" position="center,center" size="450,270">
 		<widget name="title" position="10,10" size="430,25" font="Regular;23" transparent="0" />
