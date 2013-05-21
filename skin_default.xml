@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.11 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.12 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -235,16 +235,21 @@
 		<widget source="session.CurrentService" render="Label" position="44,6" size="625,34" font="Boldit;30" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" valign="top" halign="left" noWrap="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_update_off.png" position="689,12" size="20,20" zPosition="0" alphatest="blend" />
-		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="689,12" size="20,20" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_update_off.png" position="650,12" size="20,20" zPosition="0" alphatest="blend" />
+		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="650,12" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="689,12" size="20,20" zPosition="1" alphatest="blend">
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="689,12" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_rec_off.png" position="713,13" size="31,17" zPosition="0" alphatest="blend" />
-		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="713,13" size="31,17" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_rec_off.png" position="673,13" size="31,17" zPosition="0" alphatest="blend" />
+		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="674,13" size="31,17" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+		<ePixmap pixmap="icons/ico_sub_off.png" position="712,11" size="30,20" zPosition="0" alphatest="blend" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_sub_on.png" position="712,11" size="30,20" zPosition="2" alphatest="on">
+			<convert type="ServiceInfo">SubservicesAvailable</convert>
+			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="icons/ico_hbbtv_off.png" position="747,12" size="46,17" zPosition="0" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_hbbtv_on.png" position="747,12" size="46,17" zPosition="1" alphatest="blend">
@@ -376,19 +381,24 @@
 		<widget source="session.CurrentService" render="Picon" position="44,248" size="100,60" transparent="0" alphatest="blend" zPosition="2">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="495,172" size="60,20" font="Bold;17" foregroundColor="infobar-frgrnd-on" backgroundColor="infobar-bkgrnd" transparent="1" halign="center">
+		<widget source="session.CurrentService" render="Label" position="460,172" size="60,20" font="Bold;17" foregroundColor="infobar-frgrnd-on" backgroundColor="infobar-bkgrnd" transparent="1" halign="center" >
 			<convert type="PliExtraInfo">OrbitalPosition</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_update_off.png" position="559,171" size="20,20" zPosition="0" alphatest="blend" />
-		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="559,171" size="20,20" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_update_off.png" position="520,171" size="20,20" zPosition="0" alphatest="blend" />
+		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="520,171" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="559,171" size="20,20" zPosition="1" alphatest="blend">
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="520,171" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_rec_off.png" position="583,172" size="31,17" zPosition="0" alphatest="blend" />
-		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="583,172" size="31,17" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_rec_off.png" position="545,172" size="31,17" zPosition="0" alphatest="blend" />
+		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="545,172" size="31,17" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+		<ePixmap pixmap="icons/ico_sub_off.png" position="583,171" size="30,20" zPosition="0" alphatest="blend" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_sub_on.png" position="583,171" size="30,20" zPosition="2" alphatest="on">
+			<convert type="ServiceInfo">SubservicesAvailable</convert>
+			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="icons/ico_hbbtv_off.png" position="617,171" size="46,17" zPosition="0" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_hbbtv_on.png" position="617,171" size="46,17" zPosition="1" alphatest="blend">
@@ -812,16 +822,21 @@
 		<widget source="Service" render="Label" position="44,153" size="625,34" font="Boldit;30" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" valign="top" halign="left" noWrap="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_update_off.png" position="689,159" size="20,20" zPosition="0" alphatest="blend" />
-		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="689,159" size="20,20" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_update_off.png" position="650,158" size="20,20" zPosition="0" alphatest="blend" />
+		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="650,158" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="689,159" size="20,20" zPosition="1" alphatest="blend">
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="650,158" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_rec_off.png" position="713,160" size="31,162" zPosition="0" alphatest="blend" />
-		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="715,160" size="31,162" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_rec_off.png" position="673,159" size="31,17" zPosition="0" alphatest="blend" />
+		<widget source="session.RecordState" render="Pixmap" pixmap="icons/icon_rec.png" position="673,159" size="31,17" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+		<ePixmap pixmap="icons/ico_sub_off.png" position="712,158" size="30,20" zPosition="0" alphatest="blend" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_sub_on.png" position="712,158" size="30,20" zPosition="2" alphatest="on">
+			<convert type="ServiceInfo">SubservicesAvailable</convert>
+			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="icons/ico_hbbtv_off.png" position="747,159" size="46,162" zPosition="0" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_hbbtv_on.png" position="749,159" size="46,162" zPosition="1" alphatest="blend">
