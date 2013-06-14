@@ -239,7 +239,7 @@
 		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="650,12" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="689,12" size="20,20" zPosition="1" alphatest="blend" >
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="650,12" size="20,20" zPosition="1" alphatest="blend" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 		<ePixmap pixmap="icons/icon_rec_off.png" position="673,13" size="31,17" zPosition="0" alphatest="blend" />
