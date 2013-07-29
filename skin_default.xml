@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.13 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.14 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -1351,18 +1351,19 @@ self.autoResize()
 	<screen name="configTest" position="490,240" size="300,240">
 		<widget name="config" position="10,10" size="280,220" transparent="0" />
 	</screen>
-	<screen name="Dish" flags="wfNoBorder" position="20,20" size="150,200" zPosition="-1" backgroundColor="transparent">
+	<screen name="Dish" flags="wfNoBorder" position="20,20" size="150,250" zPosition="-1" backgroundColor="transparent">
 		<widget name="Dishpixmap" position="0,0" size="130,160" zPosition="-1" pixmap="icons/dish.png" transparent="1" alphatest="on" />
 		<widget name="turnTime" position="25,0" size="120,20" zPosition="1" font="Regular;20" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="From" position="0,163" size="50,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="posFrom" position="57,160" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="Goto" position="0,183" size="50,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="posGoto" position="57,180" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="tunerName"  position="0,205"  size="90,20" zPosition="2" font="Regular;18" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="turnSpeed"  position="0,230" size="50,20" zPosition="2" font="Regular;18" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 	</screen>
 	<screen name="UnhandledKey" flags="wfNoBorder" position="1162,20" size="98,88" zPosition="100" backgroundColor="transparent">
 		<widget name="UnhandledKeyPixmap" pixmap="screens/unhandled-key.png" position="0,0" size="98,88" alphatest="off" />
 	</screen>
-
 <!-- EPG Screens -->
 	<screen name="EPGSelection" position="0,0" size="1280,720" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
