@@ -1358,7 +1358,7 @@ self.autoResize()
 		<widget name="posFrom" position="62,160" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="Goto" position="0,183" size="55,17" zPosition="1" font="Regular;17" halign="right" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="posGoto" position="62,180" size="70,20" zPosition="1" font="Regular;20" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
-		<widget name="tunerName" position="0,205"  size="90,20" zPosition="2" font="Regular;18" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
+		<widget name="tunerName" position="0,205" size="90,20" zPosition="2" font="Regular;18" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 		<widget name="turnSpeed" position="0,230" size="50,20" zPosition="2" font="Regular;18" halign="left" foregroundColor="white" borderWidth="1" borderColor="black" transparent="1" />
 	</screen>
 	<screen name="UnhandledKey" flags="wfNoBorder" position="1162,20" size="98,88" zPosition="100" backgroundColor="transparent">
