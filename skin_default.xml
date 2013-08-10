@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.16 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.17 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2757,7 +2757,6 @@ self.autoResize()
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
 		<panel name="MenuYellow3Panel" />
-		<panel name="MenuBlue3Panel" />
 		<ePixmap pixmap="buttons/key_menu.png" position="0,40" size="35,25" alphatest="blend" transparent="1" zPosition="3" />
 		<ePixmap pixmap="buttons/key_info.png" position="40,40" size="35,25" alphatest="blend" transparent="1" zPosition="3" />
 		<widget name="lab1" position="0,50" size="560,50" font="Regular; 18" zPosition="2" transparent="0" halign="center"/>
