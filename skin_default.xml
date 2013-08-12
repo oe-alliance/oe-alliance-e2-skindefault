@@ -2764,7 +2764,6 @@ self.autoResize()
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
 		<panel name="MenuYellow3Panel" />
-		<panel name="MenuBlue3Panel" />
 		<ePixmap pixmap="buttons/key_menu.png" position="0,40" size="35,25" alphatest="blend" transparent="1" zPosition="3" />
 		<ePixmap pixmap="buttons/key_info.png" position="40,40" size="35,25" alphatest="blend" transparent="1" zPosition="3" />
 		<widget name="lab1" position="0,50" size="560,50" font="Regular; 18" zPosition="2" transparent="0" halign="center"/>
