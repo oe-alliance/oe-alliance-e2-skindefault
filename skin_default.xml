@@ -1135,6 +1135,14 @@
 		<ePixmap pixmap="div-h.png" position="0,340" zPosition="1" size="560,2" />
 		<widget source="introduction" render="Label" position="0,350" size="560,50" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
 	</screen>
+	<!-- Mac-adress -->
+	<screen name="NetworkMacSetup" position="center,center" size="560,400" title="MAC-adress setup">
+		<panel name="MenuRed4Panel" />
+		<panel name="MenuGreen4Panel" />
+		<widget name="config" position="5,50" size="550,280" scrollbarMode="showOnDemand" />
+		<ePixmap pixmap="div-h.png" position="0,340" zPosition="1" size="560,2" />
+		<widget source="introduction" render="Label" position="0,350" size="560,50" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
+	</screen>
 	<!-- Network adapter selection -->
 	<screen name="NetworkAdapterSelection" position="center,center" size="560,400" title="Select a network adapter">
 		<panel name="MenuRed4Panel" />
