@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.23 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.24 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -291,8 +291,8 @@
 		<widget source="global.CurrentTime" render="Label" position="817,77" zPosition="1" size="115,18" font="Regular;18" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" halign="center" valign="top">
 			<convert type="ClockToText">Format:%a %d/%m/%y</convert>
 		</widget>
-		<widget source="session.CurrentService" render="PiconBg" position="43,44" size="102,62" transparent="0" alphatest="blend" />
-		<widget source="session.CurrentService" render="Picon" position="44,46" size="100,60" transparent="0" alphatest="blend">
+		<widget source="session.CurrentService" render="PiconBg" position="43,44" size="104,63" transparent="0" alphatest="blend" />
+		<widget source="session.CurrentService" render="Picon" position="45,45" size="100,60" transparent="0" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Progress" position="153,40" size="647,35" pixmap="infobar/infobareventprogress.png" backgroundColor="infobar_sunken" transparent="1" zPosition="0" alphatest="blend">
@@ -377,8 +377,8 @@
 		<widget source="session.CurrentService" render="Label" position="44,165" size="625,34" font="Boldit;30" foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" valign="top" halign="left" noWrap="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<widget source="session.CurrentService" render="PiconBg" position="43,246" size="102,62" transparent="0" alphatest="blend" zPosition="1" />
-		<widget source="session.CurrentService" render="Picon" position="44,248" size="100,60" transparent="0" alphatest="blend" zPosition="2">
+		<widget source="session.CurrentService" render="PiconBg" position="43,246" size="104,63" transparent="0" alphatest="blend" zPosition="1" />
+		<widget source="session.CurrentService" render="Picon" position="45,247" size="100,60" transparent="0" alphatest="blend" zPosition="2" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="460,172" size="60,20" font="Bold;17" foregroundColor="infobar-frgrnd-on" backgroundColor="infobar-bkgrnd" transparent="1" halign="center" >
@@ -727,8 +727,8 @@
 		<widget source="global.CurrentTime" render="Label" position="700,16" zPosition="1" size="115,20" font="Regular;18" foregroundColor="infobar-frgrnd" halign="center" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top">
 			<convert type="ClockToText">Format:%a %d/%m/%y</convert>
 		</widget>
-		<widget source="session.CurrentService" render="PiconBg" position="43,88" size="102,62" transparent="0" alphatest="blend" />
-		<widget source="session.CurrentService" render="Picon" position="44,90" size="100,60" transparent="0" alphatest="blend">
+		<widget source="session.CurrentService" render="PiconBg" position="43,88" size="104,63" transparent="0" alphatest="blend" />
+		<widget source="session.CurrentService" render="Picon" position="45,89" size="100,60" transparent="0" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<ePixmap pixmap="infobar/statusbar_bkgrd.png" position="686,50" size="100,10" zPosition="0" alphatest="blend" />
@@ -878,8 +878,8 @@
 		<widget source="global.CurrentTime" render="Label" position="817,224" zPosition="1" size="115,18" font="Regular;18" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" halign="center" valign="top">
 			<convert type="ClockToText">Format:%a %d/%m/%y</convert>
 		</widget>
-		<widget source="Service" render="PiconBg" position="43,191" size="102,62" transparent="0" alphatest="blend" />
-		<widget source="Service" render="Picon" position="44,193" size="100,60" transparent="0" alphatest="blend">
+		<widget source="Service" render="PiconBg" position="43,191" size="104,63" transparent="0" alphatest="blend" />
+		<widget source="Service" render="Picon" position="45,192" size="100,60" transparent="0" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="Event" render="Progress" position="152,187" size="647,35" pixmap="infobar/infobareventprogress.png" backgroundColor="infobar_sunken" transparent="1" zPosition="0">
@@ -1253,10 +1253,6 @@
 	</screen>
 	<screen name="ChannelSelection" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
-		<widget source="ServiceEvent" render="PiconBg" position="18,8" size="102,62"  zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
-		<widget source="ServiceEvent" render="Picon" position="20,10" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd">
-			<convert type="ServiceName">Reference</convert>
-		</widget>
 		<widget source="Title" render="Label" position="135,25" size="800,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
 		<panel name="FullscreenPIGPanel" />
 		<widget name="list" position="10,82" size="660,590" backgroundColor="black" foregroundColorEvent="event-frgrnd" foregroundColorEventSelected="#00202020" foregroundColorServiceNotAvail="verydarkgrey" serviceItemHeight="36" serviceNumberFont="Regular;25" serviceNameFont="Regular;25" serviceInfoFont="Bold;22" transparent="0" zPosition="3" scrollbarMode="showOnDemand" />
@@ -1385,8 +1381,8 @@ self.autoResize()
 <!-- EPG Screens -->
 	<screen name="EPGSelection" position="0,0" size="1280,720" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
-		<widget source="Service" render="PiconBg" position="18,8" size="102,62"  zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
-		<widget source="Service" render="Picon" position="20,10" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd">
+		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
+		<widget source="Service" render="Picon" position="20,9" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="Title" render="Label" position="135,25" size="800,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
@@ -1404,8 +1400,8 @@ self.autoResize()
 	</screen>
 	<screen name="EPGSelectionMulti" position="0,0" size="1280,720" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
-		<widget source="Service" render="PiconBg" position="18,8" size="102,62"  zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
-		<widget source="Service" render="Picon" position="20,10" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd">
+		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
+		<widget source="Service" render="Picon" position="20,9" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="Title" render="Label" position="135,25" size="800,43" font="Boldit;32" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="1" />
