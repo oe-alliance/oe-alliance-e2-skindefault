@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-ViX Vs 0.22 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-ViX Vs 0.23 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2868,8 +2868,7 @@ self.autoResize()
 	<screen name="IpkgInstaller" position="center,center" size="550,450" title="Install extensions">
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
-		<panel name="MenuYellow3Panel" />
-		<panel name="MenuBlue3Panel" />
+		<ePixmap pixmap="buttons/key_menu.png" position="20,420" size="35,25" alphatest="blend" transparent="1" zPosition="1" />
 		<widget name="list" position="5,50" size="540,360" />
 		<ePixmap pixmap="div-h.png" position="0,410" zPosition="10" size="560,2" transparent="1" alphatest="on" />
 		<widget source="introduction" render="Label" position="5,420" zPosition="10" size="550,30" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
