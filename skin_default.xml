@@ -1297,16 +1297,16 @@
 	</screen>
 	<screen name="SlimChannelSelection" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,420" backgroundColor="black" foregroundColorEvent="event-frgrnd" foregroundColorEventSelected="#00202020" foregroundColorServiceNotAvail="verydarkgrey" serviceItemHeight="30" serviceNumberFont="Regular;24" serviceNameFont="Regular;24" serviceInfoFont="Bold;21" transparent="1" zPosition="3" scrollbarMode="showOnDemand"/>
-		<widget source="ServiceEvent" render="Label" position="10,530" zPosition="2" size="60,25" font="Bold;22" backgroundColor="black" halign="right" noWrap="1" valign="top" foregroundColor="orange" transparent="1">
+		<widget source="ServiceEvent" render="Label" position="10,420" zPosition="2" size="60,25" font="Bold;22" backgroundColor="black" halign="right" noWrap="1" valign="top" foregroundColor="orange" transparent="1">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">
 			</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="75,530" zPosition="2" size="73,25" font="Bold;22" backgroundColor="black" noWrap="1" valign="top" foregroundColor="orange" transparent="1">
+		<widget source="ServiceEvent" render="Label" position="75,420" zPosition="2" size="73,25" font="Bold;22" backgroundColor="black" noWrap="1" valign="top" foregroundColor="orange" transparent="1">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:- %H:%M</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="15,555" size="503,90" font="Regular;19" backgroundColor="black" foregroundColor="window-fg" valign="top" zPosition="2" transparent="1">
+		<widget source="ServiceEvent" render="Label" position="15,445" size="503,63" font="Regular;19" backgroundColor="black" foregroundColor="window-fg" valign="top" zPosition="2" transparent="1">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 		<panel name="MenuRed1Panel" />
