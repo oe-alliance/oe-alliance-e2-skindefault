@@ -1715,8 +1715,10 @@ self.autoResize()
 	</screen>
 	<screen name="NimSetup" position="center,center" size="560,550">
 		<widget name="config" position="0,0" size="560,526" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" />
-		<panel name="MenuRed2Panel" />
-		<panel name="MenuGreen2Panel" />
+		<panel name="MenuRed1Panel" />
+		<panel name="MenuGreen1Panel" />
+		<panel name="MenuYellow1Panel" />
+		<panel name="MenuBlue1Panel" />
 	</screen>
 	<screen name="NumberZap" position="center,center" size="434,109" backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="number" position="0,0" size="434,50" backgroundColor="transparent" transparent="1" font="Regular;48" borderColor="black" borderWidth="2" valign="center" halign="center" />
