@@ -1,5 +1,5 @@
 ﻿<skin>
-	<!--	Skin: Default-OE-A skin, based on ViX Vs 0.26 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-OE-A skin, based on ViX Vs 0.27 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2974,8 +2974,17 @@ self.autoResize()
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
 		<widget name="picture" pixmap="distro-logo.png" position="0,0" size="500,500" alphatest="on" zPosition="1"/>
 	</screen>
-	<screen name="AutoVideoModeLabel" position="e-370,40" size="330,55" flags="wfNoBorder" >
-		<widget name="content" position="7,5" size="320,22" font="Regular;20" transparent="1" />
-		<widget name="restxt" position="7,26" size="320,22" font="Regular;20" transparent="1" />
+	<screen name="AutoVideoModeLabel" position="e-370,40" size="330,55" flags="wfNoBorder">
+		<widget name="content" position="7,5" size="320,22" font="Regular;20" transparent="1"/>
+		<widget name="restxt" position="7,26" size="320,22" font="Regular;20" transparent="1"/>
+	</screen>
+	<!-- Hotkey -->
+		<screen name="HotkeySetup" position="center,center" size="600,550">
+		<ePixmap pixmap="skin_default/buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
+		<ePixmap pixmap="skin_default/buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
+		<widget name="key_red" position="0,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+		<widget name="key_green" position="140,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+		<widget name="list" position="0,45" size="580,400" scrollbarMode="showOnDemand"/>
+		<widget name="choosen" position="0,450" size="580,100" scrollbarMode="showOnDemand" foregroundColor="secondFG"/>
 	</screen>
 </skin>
