@@ -1,5 +1,5 @@
 <skin>
-	<!--	Skin: Default-OE-A skin, based on ViX Vs 0.27 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
+	<!--	Skin: Default-OE-A skin, based on ViX Vs 0.28 by Andy Blackburn. @www.world-of-satellite.com,  based on ViX Night	-->
 	<!--	This skin is a Freeware. Everyone can modify and use it in other images.	-->
 	<!--	BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!	-->
 	<!--	Do whatever you want with this skin,but don't tell it's yours,or your idea, and leave the credentials in the "About-box" as they are	-->
@@ -2983,15 +2983,17 @@ self.autoResize()
 		<ePixmap pixmap="skin_default/buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="skin_default/buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
 		<widget name="key_red" position="0,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
-		<widget name="list" position="0,45" size="580,400" scrollbarMode="showOnDemand"/>
-		<widget name="choosen" position="0,450" size="580,100" scrollbarMode="showOnDemand" foregroundColor="secondFG"/>
+		<widget name="list" position="0,45" size="580,300" scrollbarMode="showOnDemand"/>
+		<widget name="choosen" position="0,350" size="580,100" scrollbarMode="showOnDemand" foregroundColor="secondFG"/>
+		<widget name="description" position="0,480" size="580,60" font="Regular;18" halign="center" valign="center" transparent="0" zPosition="1" />
 	</screen>
 		<screen name="HotkeySetupSelect" position="center,center" size="600,550">
 		<ePixmap pixmap="skin_default/buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="skin_default/buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
 		<widget name="key_red" position="0,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
 		<widget name="key_green" position="140,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
-		<widget name="list" position="0,45" size="580,400" scrollbarMode="showOnDemand"/>
-		<widget name="choosen" position="0,450" size="580,100" scrollbarMode="showOnDemand" foregroundColor="secondFG"/>
+		<widget name="list" position="0,45" size="580,300" scrollbarMode="showOnDemand"/>
+		<widget name="choosen" position="0,350" size="580,100" scrollbarMode="showOnDemand" foregroundColor="secondFG"/>
+		<widget name="description" position="0,480" size="580,60" font="Regular;18" halign="center" valign="center" transparent="0" zPosition="1" />
 	</screen>
 </skin>
