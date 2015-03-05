@@ -146,7 +146,7 @@
 	</screen>
 	<screen name="MenuGreen2Panel">
 		<ePixmap pixmap="buttons/green.png" position="140,e-40" size="140,40" alphatest="on" />
-		<widget source="key_green" render="Label"  position="140,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1" />
+		<widget source="key_green" render="Label" position="140,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1" />
 	</screen>
 	<screen name="MenuYellow2Panel">
 		<ePixmap pixmap="buttons/yellow.png" position="280,e-40" size="140,40" alphatest="on" />
@@ -178,7 +178,7 @@
 	</screen>
 	<screen name="MenuGreen4Panel">
 		<ePixmap pixmap="buttons/green.png" position="140,0" size="140,40" alphatest="on" />
-		<widget source="key_green" render="Label"  position="140,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1" />
+		<widget source="key_green" render="Label" position="140,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1" />
 	</screen>
 	<screen name="MenuYellow4Panel">
 		<ePixmap pixmap="buttons/yellow.png" position="280,0" size="140,40" alphatest="on" />
@@ -225,7 +225,7 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="footnote" position="0,50" size="300,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" />
-		<widget name="config" position="0,90" size="560,375"   transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" />
+		<widget name="config" position="0,90" size="560,375" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" />
 		<widget name="description" position="0,e-75" size="560,75" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1" />
 	</screen>
 
@@ -501,7 +501,7 @@
 		<widget source="session.Event_Next" render="Label" position="245,277" size="430,35" font="Regular;22" noWrap="1" foregroundColor="infobar_sunken_frgnd_dark" backgroundColor="infobar_sunken" valign="center" transparent="1">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Next" render="Label" position="690,277" size="100,35" font="Regular;22" foregroundColor="infobar_sunken_frgnd_dark" backgroundColor="infobar_sunken" halign="right"  valign="center" transparent="1" noWrap="1">
+		<widget source="session.Event_Next" render="Label" position="690,277" size="100,35" font="Regular;22" foregroundColor="infobar_sunken_frgnd_dark" backgroundColor="infobar_sunken" halign="right" valign="center" transparent="1" noWrap="1">
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
@@ -1152,7 +1152,7 @@
 		<panel name="MenuYellow4Panel" />
 		<panel name="MenuBlue4Panel" />
 		<widget source="list" render="Listbox" position="5,50" size="550,280" zPosition="10" scrollbarMode="showOnDemand">
-			<convert type="TemplatedMultiContent"> <!--  iface, name, description, interfacepng, defaultpng, activepng, divpng  -->
+			<convert type="TemplatedMultiContent"> <!-- iface, name, description, interfacepng, defaultpng, activepng, divpng -->
 				{"template": [
 						MultiContentEntryText(pos = (85, 6), size = (440, 28), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is the interfacename
 						MultiContentEntryText(pos = (85, 43), size = (440, 20), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_BOTTOM, text = 2), # index 2 is the description
@@ -1399,7 +1399,7 @@ self.autoResize()
 <!-- EPG Screens -->
 	<screen name="EPGSelection" position="0,0" size="1280,720" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
-		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
+		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" />
 		<widget source="Service" render="Picon" position="20,9" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
@@ -1418,7 +1418,7 @@ self.autoResize()
 	</screen>
 	<screen name="EPGSelectionMulti" position="0,0" size="1280,720" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel" />
-		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd"  />
+		<widget source="Service" render="PiconBg" position="18,8" size="104,63" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" />
 		<widget source="Service" render="Picon" position="20,9" size="100,60" zPosition="5" alphatest="blend" backgroundColor="fullscreen-topbar-bkgrnd" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
@@ -1533,11 +1533,11 @@ self.autoResize()
 		<widget name="FullDescription" position="54,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
 		<widget name="red" pixmap="buttons/red.png" position="100,213" size="25,25" alphatest="blend" zPosition="3" />
 		<widget name="key_red" position="140,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1" />
-		<widget name="green"  pixmap="buttons/green.png" position="300,213" size="25,25" alphatest="blend" />
+		<widget name="green" pixmap="buttons/green.png" position="300,213" size="25,25" alphatest="blend" />
 		<widget name="key_green" position="340,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1" />
-		<widget name="yellow"  pixmap="buttons/yellow.png" position="500,213" size="25,25" alphatest="blend" />
+		<widget name="yellow" pixmap="buttons/yellow.png" position="500,213" size="25,25" alphatest="blend" />
 		<widget name="key_yellow" position="540,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1" />
-		<widget name="blue"  pixmap="buttons/blue.png" position="700,213" size="25,25" alphatest="blend" />
+		<widget name="blue" pixmap="buttons/blue.png" position="700,213" size="25,25" alphatest="blend" />
 		<widget name="key_blue" position="740,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1" />
 	</screen>
 	<screen name="EventViewSimple" position="center,e-260" size="980,250" backgroundColor="transparent" flags="wfNoBorder">
@@ -1562,7 +1562,7 @@ self.autoResize()
 		<widget name="FullDescription" position="10,50" size="1260,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" />
 	</screen>
 	<screen name="EventViewContextMenu" position="center,center" size="560,550">
-		<widget name="menu"  render="Listbox" position="0,0" size="560,533" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand">
+		<widget name="menu" render="Listbox" position="0,0" size="560,533" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [	MultiContentEntryText(pos = (20,0), size = (465,38), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0	) ],
 				"fonts": [gFont("Regular",28)],
@@ -1847,7 +1847,7 @@ self.autoResize()
 		<widget name="RadioText" position="0,0" size="1280,90" font="LCD;30" noWrap="1" foregroundColor="yellow" backgroundColor="transpBlack" valign="center" halign="center" borderColor="black" borderWidth="4"/>
 		<widget name="RtpText" position="0,100" size="1280,90" font="LCD;30" noWrap="1" backgroundColor="yellow" valign="center" halign="center" borderColor="black" borderWidth="4"/>
 	</screen>
-	<!--  Satfinder  -->
+	<!-- Satfinder -->
 	<screen name="Satfinder" position="center,center" size="520,450" title="Satfinder">
 		<widget name="introduction" position="0,0" size="200,25" zPosition="1" font="Regular;23"/>
 		<ePixmap pixmap="icons/dish_scan.png" position="5,75" zPosition="0" size="119,110" transparent="1" alphatest="on"/>
@@ -1880,7 +1880,7 @@ self.autoResize()
 		<ePixmap pixmap="div-h.png" position="10,202" zPosition="1" size="500,2"/>
 		<widget name="config" position="10,205" size="500,225" scrollbarMode="showOnDemand"/>
 	</screen>
-	<!--  Scan setup  -->
+	<!-- Scan setup -->
 	<screen name="ScanSetup" position="center,center" size="520,450" title="Manual scan">
 		<ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
@@ -1889,7 +1889,7 @@ self.autoResize()
 		<widget name="config" position="10,50" size="500,400" scrollbarMode="showOnDemand"/>
 		<widget name="introduction" position="0,0" size="0,0"/>
 	</screen>
-	<!--  Scan simple  -->
+	<!-- Scan simple -->
 	<screen name="ScanSimple" position="center,center" size="420,350" title="Automatic scan">
 		<ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
@@ -1932,7 +1932,7 @@ self.autoResize()
 		<ePixmap pixmap="div-h.png" position="0,375" size="560,2" />
 		<widget name="status_bar" position="10,380" size="460,20" font="Regular;18" foregroundColor="white"/>
 	</screen>
-	<!--  Fast Scan  -->
+	<!-- Fast Scan -->
 	<screen name="FastScanScreen" position="center,center" size="520,350" title="Fast Scan">
 		<ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="buttons/green.png" position="140,0" size="140,40" alphatest="on"/>
@@ -2259,7 +2259,7 @@ self.autoResize()
 		<widget source="global.CurrentTime" render="Label" position="880,67" size="350,25" font="Regular;20" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
 			<convert type="ClockToText">Date</convert>
 		</widget>
-		<widget source="statusbar" render="Label"  position="150,140" size="730,250" font="Regular;22" foregroundColor="window-fg" backgroundColor="black" transparent="1" />
+		<widget source="statusbar" render="Label" position="150,140" size="730,250" font="Regular;22" foregroundColor="window-fg" backgroundColor="black" transparent="1" />
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1" />
 	</screen>
 	<screen name="SoftwareUpdateChanges" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
@@ -2549,7 +2549,7 @@ self.autoResize()
 		<widget source="key_blue" render="Label" position="420,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#18188b" transparent="1"/>
 		<widget source="list" render="Listbox" position="5,50" size="550,280" zPosition="10" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
-			<!--  device, description, devicepng, divpng  -->
+			<!-- device, description, devicepng, divpng -->
 							{"template": [
 									MultiContentEntryPixmapAlphaTest(pos = (2, 8), size = (54, 54), png = 2), # index 3 is the interface pixmap
 									MultiContentEntryText(pos = (65, 6), size = (450, 54), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP, text = 1), # index 1 is the interfacename
@@ -2596,15 +2596,15 @@ self.autoResize()
 		<widget name="labactive" position="180,90" size="250,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="lab2" position="20,160" size="150,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="labstop" position="180,160" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
 	<screen name="NetworkFtp" position="center,center" size="340,310">
 		<panel name="MenuRed3Panel" />
 		<panel name="MenuGreen3Panel" />
 		<widget name="lab1" position="20,50" size="300,80" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="lab2" position="20,170" size="150,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="labstop" position="170,170" size="100,30" font="Regular;20" valign="center"  halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="170,170" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labstop" position="170,170" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
+		<widget name="labrun" position="170,170" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
 	<screen name="NetworkNfs" position="center,center" size="420,310">
 		<panel name="MenuRed3Panel" />
@@ -2613,8 +2613,8 @@ self.autoResize()
 		<widget name="lab1" position="20,50" size="200,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="labactive" position="220,50" size="150,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="lab2" position="20,100" size="200,30" font="Regular;20" valign="center" transparent="0"/>
-		<widget name="labstop" position="220,100" size="100,30" font="Regular;20" valign="center"  halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="220,100" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labstop" position="220,100" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
+		<widget name="labrun" position="220,100" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
 	<screen name="NetworkSamba" position="center,center" size="420,310">
 		<panel name="MenuRed3Panel" />
@@ -2623,8 +2623,8 @@ self.autoResize()
 		<widget name="lab1" position="20,50" size="200,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="labactive" position="220,50" size="150,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="lab2" position="20,100" size="200,30" font="Regular;20" valign="center" transparent="0"/>
-		<widget name="labstop" position="220,100" size="100,30" font="Regular;20" valign="center"  halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="220,100" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labstop" position="220,100" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
+		<widget name="labrun" position="220,100" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
 	<screen name="NetworkOpenvpn" position="center,center" size="560,310">
 		<panel name="MenuRed3Panel" />
@@ -2635,7 +2635,7 @@ self.autoResize()
 		<widget name="labactive" position="180,90" size="250,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="lab2" position="20,160" size="150,30" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="labstop" position="180,160" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
 	<screen name="NetworkInadyn" position="center,center" size="590,410">
 		<widget name="autostart" position="10,0" size="100,24" font="Regular;20" valign="center" transparent="0" />
@@ -2652,8 +2652,8 @@ self.autoResize()
 		<widget name="labpass" position="160,150" size="310,30" font="Regular;20" valign="center" backgroundColor="#4D5375"/>
 		<widget name="alias" position="10,200" size="150,30" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="labalias" position="160,200" size="310,30" font="Regular;20" valign="center" backgroundColor="#4D5375"/>
-		<widget name="sinactive" position="10,250" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="sactive" position="10,250" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="sinactive" position="10,250" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="sactive" position="10,250" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="system" position="50,250" size="100,30" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="labsys" position="160,250" size="310,30" font="Regular;20" valign="center" backgroundColor="#4D5375"/>
 		<ePixmap pixmap="buttons/red.png" position="0,360" size="140,40" alphatest="on" />
@@ -2678,8 +2678,8 @@ self.autoResize()
 	<screen name="NetworkTelnet" position="center,center" size="340,310">
 		<widget name="lab1" position="20,30" size="300,80" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="lab2" position="20,150" size="150,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="labstop" position="170,150" size="100,30" font="Regular;20" valign="center"  halign="center" backgroundColor="red"/>
-		<widget name="labrun" position="170,150" size="100,30" zPosition="1" font="Regular;20" valign="center"  halign="center" backgroundColor="green"/>
+		<widget name="labstop" position="170,150" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
+		<widget name="labrun" position="170,150" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 		<ePixmap pixmap="buttons/red.png" position="20,260" size="140,40" alphatest="on" />
 		<ePixmap pixmap="buttons/green.png" position="180,260" size="140,40" alphatest="on" />
 		<widget name="key_red" position="20,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
@@ -2703,17 +2703,17 @@ self.autoResize()
 		<widget name="sharedir" position="10,210" size="150,30" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="labsharedir" position="160,210" size="310,90" font="Regular;20" valign="center" backgroundColor="#4D5375"/>
 		<widget name="web" position="10,300" size="180,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="webinactive" position="200,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="webactive" position="200,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="webinactive" position="200,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="webactive" position="200,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="telnet" position="10,330" size="180,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="telnetinactive" position="200,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="telnetactive" position="200,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="telnetinactive" position="200,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="telnetactive" position="200,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="xbox" position="250,300" size="200,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="xboxinactive" position="470,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="xboxactive" position="470,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="xboxinactive" position="470,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="xboxactive" position="470,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="dlna" position="250,330" size="200,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="dlnainactive" position="470,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="dlnaactive" position="470,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="dlnainactive" position="470,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="dlnaactive" position="470,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<ePixmap pixmap="buttons/red.png" position="0,360" size="140,40" alphatest="on" />
 		<ePixmap pixmap="buttons/green.png" position="150,360" size="140,40" alphatest="on" />
 		<ePixmap pixmap="buttons/yellow.png" position="300,360" size="140,40" alphatest="on" />
@@ -2759,14 +2759,14 @@ self.autoResize()
 		<widget name="sharedir" position="10,210" size="150,30" font="Regular;20" valign="center" transparent="1"/>
 		<widget name="labsharedir" position="160,210" size="310,90" font="Regular;20" valign="top" backgroundColor="#4D5375"/>
 		<widget name="inotify" position="10,300" size="180,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="inotifyinactive" position="200,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="inotifyactive" position="200,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="inotifyinactive" position="200,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="inotifyactive" position="200,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="tivo" position="10,330" size="180,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="tivoinactive" position="200,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="tivoactive" position="200,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="tivoinactive" position="200,330" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="tivoactive" position="200,330" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<widget name="dlna" position="250,300" size="200,30" font="Regular;20" valign="center" transparent="1"/>
-		<widget name="dlnainactive" position="470,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32"  alphatest="on" />
-		<widget name="dlnaactive" position="470,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32"  alphatest="on" />
+		<widget name="dlnainactive" position="470,300" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+		<widget name="dlnaactive" position="470,300" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
 		<ePixmap pixmap="buttons/red.png" position="0,360" size="140,40" alphatest="on" />
 		<ePixmap pixmap="buttons/green.png" position="150,360" size="140,40" alphatest="on" />
 		<ePixmap pixmap="buttons/yellow.png" position="300,360" size="140,40" alphatest="on" />
@@ -2793,12 +2793,12 @@ self.autoResize()
 		<widget name="text" position="0,50" size="720,500" font="Regular;21" />
 	</screen>
 	<screen name="UpdatePlugin" position="center,center" size="550,300">
-		<widget name="activityslider" position="0,0" size="550,5"  />
-		<widget name="slider" position="0,150" size="550,30"  />
+		<widget name="activityslider" position="0,0" size="550,5" />
+		<widget name="slider" position="0,150" size="550,30" />
 		<widget source="package" render="Label" position="10,30" size="540,20" font="Regular;18" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
 		<widget source="status" render="Label" position="10,180" size="540,100" font="Regular;20" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
 	</screen>
-	<screen name="UserInterfacePositioner"  position="0,0" size="e,e" backgroundColor="blue">
+	<screen name="UserInterfacePositioner" position="0,0" size="e,e" backgroundColor="blue">
 		<widget name="config" position="c-175,c-75" size="350,150" foregroundColor="black" backgroundColor="blue" />
 		<ePixmap pixmap="buttons/green.png" position="c-215,e-100" zPosition="0" size="140,40" alphatest="on" />
 		<widget source="key_green" render="Label" position="c-215,e-100" size="140,40" valign="center" halign="center" zPosition="1" font="Regular;20" transparent="1" backgroundColor="green" />
@@ -2851,7 +2851,7 @@ self.autoResize()
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="footnote" position="0,50" size="300,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" />
-		<widget name="config" position="0,90" size="560,375"   transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" />
+		<widget name="config" position="0,90" size="560,375" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" />
 		<widget name="description" position="0,e-75" size="560,75" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1" />
 	</screen>
 	<screen name="BackupSelection" position="center,center" size="560,400">
@@ -2959,11 +2959,11 @@ self.autoResize()
 		</applet>
 	</screen>
 	<screen name="VIXStartCam" position="center,center" size="484, 150" title="Starting Softcam">
-		<widget name="connect" position="217, 0" size="64,64" zPosition="2" pixmaps="/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy1.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy2.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy3.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy4.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy5.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy6.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy7.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy8.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy10.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy11.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy12.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy13.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy14.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy15.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy17.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy18.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy19.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy20.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy21.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy22.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy23.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy24.png"  transparent="1" alphatest="blend" />
+		<widget name="connect" position="217, 0" size="64,64" zPosition="2" pixmaps="/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy1.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy2.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy3.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy4.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy5.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy6.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy7.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy8.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy10.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy11.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy12.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy13.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy14.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy15.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy17.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy18.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy19.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy20.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy21.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy22.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy23.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy24.png" transparent="1" alphatest="blend" />
 		<widget name="lab1" position="10, 80" halign="center" size="460, 60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 	</screen>
 	<screen name="VIXStopCam" position="center,center" size="484, 150" title="Stopping Softcam">
-		<widget name="connect" position="217, 0" size="64,64" zPosition="2" pixmaps="/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy1.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy2.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy3.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy4.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy5.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy6.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy7.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy8.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy10.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy11.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy12.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy13.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy14.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy15.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy17.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy18.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy19.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy20.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy21.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy22.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy23.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy24.png"  transparent="1" alphatest="blend" />
+		<widget name="connect" position="217, 0" size="64,64" zPosition="2" pixmaps="/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy1.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy2.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy3.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy4.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy5.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy6.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy7.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy8.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy9.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy10.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy11.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy12.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy13.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy14.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy15.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy17.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy18.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy19.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy20.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy21.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy22.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy23.png,/usr/lib/enigma2/python/Plugins/SystemPlugins/ViX/images/busy24.png" transparent="1" alphatest="blend" />
 		<widget name="lab1" position="10, 80" halign="center" size="460, 60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 	</screen>
 	<screen name="VIXSoftcamLog" position="center,center" size="560,400">
