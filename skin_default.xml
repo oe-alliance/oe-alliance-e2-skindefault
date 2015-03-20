@@ -3020,6 +3020,6 @@ self.autoResize()
 	</screen>
 		<!-- BufferIndicator -->
 	<screen name="BufferIndicator" title="Channel" position="c-100,45" size="200,35" backgroundColor="transparent" flags="wfNoBorder">
-		<widget name="status" position="0,0" size="250,35" backgroundColor="transparent" transparent="1" font="Regular;26" borderColor="black" borderWidth="2" valign="center" haligh="center" zPosition="100"/>
+		<widget name="status" position="0,0" size="250,35" backgroundColor="transparent" transparent="1" font="Regular;26" borderColor="black" borderWidth="2" valign="center" halign="center" zPosition="100"/>
 	</screen>
 </skin>
