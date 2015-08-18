@@ -110,6 +110,7 @@ dist_install_DATA =     ask.png \
     part_unwatched.png \
     pause_large.png \
     pause.png \
+    pic_frame.png \
     play_large.png \
     play.png \
     playlist.png \
