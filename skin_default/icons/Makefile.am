@@ -21,6 +21,8 @@ dist_install_DATA =     ask.png \
     epgclock_zaprec.png \
     epgclock.png \
     expandable-plugins.png \
+    expandable.png \
+    expanded.png \
     expanded-plugins.png \
     faz.png \
     folder.png \
@@ -108,6 +110,7 @@ dist_install_DATA =     ask.png \
     part_unwatched.png \
     pause_large.png \
     pause.png \
+    pic_frame.png \
     play_large.png \
     play.png \
     playlist.png \
@@ -147,6 +150,7 @@ dist_install_DATA =     ask.png \
     unhandled-key.png \
     unlock.png \
     unlockBouquet.png \
+    verticalline.png \
     verticalline-plugins.png \
     YPbPr.png \
     za.png
