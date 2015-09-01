@@ -2,31 +2,31 @@
 	<!--	Skin: Default-OE-A skinViX addition Vs 0.00	-->
 	<!--	This skin is part of the default OE-A-skin; the same license applies.	-->
 	<output id="0">
-		<resolution bpp="32" xres="1280" yres="720" />
+		<resolution bpp="32" xres="1280" yres="720"/>
 	</output>
 	<windowstyle type="skinned" id="0">
-		<title offset="25,15" font="Italic;24" />
-		<color name="Background" color="window-bg" />
-		<color name="LabelForeground" color="window-fg" />
-		<color name="ListboxBackground" color="window-bg" />
-		<color name="ListboxForeground" color="window-fg" />
-		<color name="ListboxSelectedBackground" color="window-sel-bg" />
-		<color name="ListboxSelectedForeground" color="window-sel-fg" />
-		<color name="ListboxMarkedBackground" color="window-sel-bg" />
-		<color name="ListboxMarkedForeground" color="#00a08500" />
-		<color name="ListboxMarkedAndSelectedBackground" color="window-sel-bg" />
-		<color name="ListboxMarkedAndSelectedForeground" color="#00800000" />
-		<color name="WindowTitleForeground" color="window-frgrnd" />
-		<color name="WindowTitleBackground" color="#00000000" />
+		<title offset="25,15" font="Italic;24"/>
+		<color name="Background" color="window-bg"/>
+		<color name="LabelForeground" color="window-fg"/>
+		<color name="ListboxBackground" color="window-bg"/>
+		<color name="ListboxForeground" color="window-fg"/>
+		<color name="ListboxSelectedBackground" color="window-sel-bg"/>
+		<color name="ListboxSelectedForeground" color="window-sel-fg"/>
+		<color name="ListboxMarkedBackground" color="window-sel-bg"/>
+		<color name="ListboxMarkedForeground" color="#00a08500"/>
+		<color name="ListboxMarkedAndSelectedBackground" color="window-sel-bg"/>
+		<color name="ListboxMarkedAndSelectedForeground" color="#00800000"/>
+		<color name="WindowTitleForeground" color="window-frgrnd"/>
+		<color name="WindowTitleBackground" color="#00000000"/>
 		<borderset name="bsWindow">
-			<pixmap pos="bpTopLeft" filename="screens/b_tl.png" />
-			<pixmap pos="bpTop" filename="screens/b_t.png" />
-			<pixmap pos="bpTopRight" filename="screens/b_tr.png" />
-			<pixmap pos="bpLeft" filename="screens/b_l.png" />
-			<pixmap pos="bpRight" filename="screens/b_r.png" />
-			<pixmap pos="bpBottomLeft" filename="screens/b_bl.png" />
-			<pixmap pos="bpBottom" filename="screens/b_b.png" />
-			<pixmap pos="bpBottomRight" filename="screens/b_br.png" />
+			<pixmap pos="bpTopLeft" filename="screens/b_tl.png"/>
+			<pixmap pos="bpTop" filename="screens/b_t.png"/>
+			<pixmap pos="bpTopRight" filename="screens/b_tr.png"/>
+			<pixmap pos="bpLeft" filename="screens/b_l.png"/>
+			<pixmap pos="bpRight" filename="screens/b_r.png"/>
+			<pixmap pos="bpBottomLeft" filename="screens/b_bl.png"/>
+			<pixmap pos="bpBottom" filename="screens/b_b.png"/>
+			<pixmap pos="bpBottomRight" filename="screens/b_br.png"/>
 		</borderset>
 	</windowstyle>
 </skin>
