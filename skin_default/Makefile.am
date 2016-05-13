@@ -14,7 +14,7 @@ dist_install_DATA = arrowdown.png \
     lcd_picon_default.png \
     no_coverArt.png \
     noprev.png \
-     overscan.png \
+    overscan.png \
     picon_default.png \
     position_arrow.png \
     position_pointer.png \
