@@ -1061,11 +1061,11 @@
 	</screen>
 	<screen name="Devices" position="center,center" size="560,550">
 		<widget source="TunerHeader" render="Label" position="0,0" size="530,25" font="Bold;20" transparent="0" zPosition="1"/>
-		<widget source="nims" render="Label" position="0,25" size="530,200" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0"/>
+		<widget source="nims" render="Label" position="0,25" size="530,200" font="Regular;18" transparent="0" zPosition="1" noWrap="1"/>
 		<widget source="HDDHeader" render="Label" position="0,250" size="530,25" font="Bold;20" transparent="0" zPosition="1"/>
-		<widget source="hdd" render="Label" position="0,275" size="530,200" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0"/>
+		<widget source="hdd" render="Label" position="0,275" size="530,200" font="Regular;18" transparent="0" zPosition="1" noWrap="1"/>
 		<widget source="MountsHeader" render="Label" position="0,400" size="458,25" font="Bold;20" transparent="0" zPosition="1"/>
-		<widget source="mounts" render="Label" position="0,425" size="530,175" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0"/>
+		<widget source="mounts" render="Label" position="0,425" size="530,175" font="Regular;18" transparent="0" zPosition="1" noWrap="1"/>
 	</screen>
 	<screen name="AboutReleaseNotes" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,526" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
