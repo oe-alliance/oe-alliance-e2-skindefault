@@ -1658,10 +1658,6 @@ self.autoResize()
 	<screen name="MinuteInput" position="center,center" size="280,60">
 		<widget name="minutes" position="80,15" size="160,25" halign="right" font="Regular;23" transparent="1"/>
 	</screen>
-	<!-- ## Restart ## -->
-	<screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder" backgroundColor="black">
-		<widget name="text" position="center,center" size="1270,40" font="Regular;30" halign="center" valign="center" zPosition="3"/>
-	</screen>
 	<screen name="MovieSelection" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel"/>
 		<panel name="FullscreenTitlePanel"/>
@@ -2031,7 +2027,7 @@ self.autoResize()
 		<widget name="oktext" position="280,0" zPosition="1" size="115,24" font="Regular;19" halign="center" valign="center" transparent="1"/>
 		<widget name="config" position="10,40" transparent="0" size="380,150"/>
 	</screen>
-	<screen name="TimeshiftState" position="center,472" size="671,90" zPosition="2" backgroundColor="transpBlack" flags="wfNoBorder">
+	<screen name="TimeshiftState" position="center,472"  size="671,90" zPosition="2"backgroundColor="transpBlack" flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="1" size="671,90" pixmap="screens/pts-bg.png"/>
 		<widget source="session.CurrentService" render="Label" position="25,15" size="200,27" font="Regular;20" halign="left" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" zPosition="3">
 			<convert type="ServicePosition">Position</convert>
@@ -3026,16 +3022,7 @@ self.autoResize()
 		<widget name="status" position="0,0" size="320,35" backgroundColor="transparent" transparent="1" font="Regular;26" borderColor="black" borderWidth="2" valign="center" halign="center" zPosition="100"/>
 	</screen>
 	<!-- Streaming Clients Info screen -->
-	<screen name="StreamingClientsInfo" position="center,center" size="540,490" title="Streaming clients info">
-		<widget name="ScrollLabel" font="Regular;20" position="0,00" size="540,490" zPosition="2" halign="left"/>
-	</screen>
-
-		<!-- AutoBouquetsMaker -->
-	<screen name="AutoBouquetsMaker" position="340,650" size="600,70" flags="wfNoBorder" >
-		<widget name="background" position="0,0" size="600,70" zPosition="-1" />
-		<widget name="action" halign="center" valign="center" position="65,10" size="520,20" font="Regular;18" backgroundColor="#11404040" transparent="1" />
-		<widget name="status" halign="center" valign="center" position="65,35" size="520,20" font="Regular;18" backgroundColor="#11000000" transparent="1" />
-		<widget name="progress" position="65,55" size="520,5" borderWidth="1" backgroundColor="#11000000"/>
-	</screen>
-
+ +	<screen name="StreamingClientsInfo" position="center,center" size="540,490" title="Streaming clients info">
+ +		<widget name="ScrollLabel" font="Regular;20" position="0,00" size="540,490" zPosition="2" halign="left"/>
+ +	</screen>
 </skin>
