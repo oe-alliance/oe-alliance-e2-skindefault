@@ -2031,7 +2031,7 @@ self.autoResize()
 		<widget name="oktext" position="280,0" zPosition="1" size="115,24" font="Regular;19" halign="center" valign="center" transparent="1"/>
 		<widget name="config" position="10,40" transparent="0" size="380,150"/>
 	</screen>
-	<screen name="TimeshiftState" position="center,472"  size="671,90" zPosition="2"backgroundColor="transpBlack" flags="wfNoBorder">
+	<screen name="TimeshiftState" position="center,472"  size="671,90" zPosition="2" backgroundColor="transpBlack" flags="wfNoBorder">
 		<ePixmap position="0,0" zPosition="1" size="671,90" pixmap="screens/pts-bg.png"/>
 		<widget source="session.CurrentService" render="Label" position="25,15" size="200,27" font="Regular;20" halign="left" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" zPosition="3">
 			<convert type="ServicePosition">Position</convert>
