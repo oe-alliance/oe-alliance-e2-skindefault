@@ -2040,7 +2040,7 @@ self.autoResize()
 			<convert type="ServicePosition">Length</convert>
 		</widget>
 		<widget name="PTSSeekBack" position="25,43" size="621,15" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
-		<widget name="PTSSeekPointer" position="10,40" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
+		<widget name="PTSSeekPointer" position="20,35" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
 		 <widget source="session.CurrentService" render="Progress" position="25,43" size="621,15" zPosition="3" pixmap="slider.png" transparent="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
