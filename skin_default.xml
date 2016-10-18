@@ -2854,7 +2854,7 @@ self.autoResize()
 		<widget name="status" position="0,0" size="320,35" backgroundColor="transparent" transparent="1" font="Regular;26" borderColor="black" borderWidth="2" valign="center" halign="center" zPosition="100"/>
 	</screen>
 	<!-- Streaming Clients Info screen -->
- +	<screen name="StreamingClientsInfo" position="center,center" size="540,490" title="Streaming clients info">
- +		<widget name="ScrollLabel" font="Regular;20" position="0,00" size="540,490" zPosition="2" halign="left"/>
- +	</screen>
+ 	<screen name="StreamingClientsInfo" position="center,center" size="540,490" title="Streaming clients info">
+ 		<widget name="ScrollLabel" font="Regular;20" position="0,00" size="540,490" zPosition="2" halign="left"/>
+ 	</screen>
 </skin>
