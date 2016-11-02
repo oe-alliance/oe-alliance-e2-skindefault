@@ -1658,10 +1658,6 @@ self.autoResize()
 	<screen name="MinuteInput" position="center,center" size="280,60">
 		<widget name="minutes" position="80,15" size="160,25" halign="right" font="Regular;23" transparent="1"/>
 	</screen>
-	<!-- ## Restart ## -->
-	<screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder" backgroundColor="black">
-		<widget name="text" position="center,center" size="1270,40" font="Regular;30" halign="center" valign="center" zPosition="3"/>
-	</screen>
 	<screen name="MovieSelection" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel"/>
 		<panel name="FullscreenTitlePanel"/>
