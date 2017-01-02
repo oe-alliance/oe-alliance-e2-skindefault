@@ -7,7 +7,7 @@ dist_install_DATA =     ar_AE.png \
     da_DK.png \
     de_DE.png \
     el_GR.png \
-	en_AU.png \
+    en_AU.png \
     en_GB.png \
     en_US.png \
     es_ES.png \
