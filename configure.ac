@@ -17,6 +17,7 @@ skin_default/epg/Makefile
 skin_default/extensions/Makefile
 skin_default/icons/Makefile
 skin_default/infobar/Makefile
+skin_default/menu/Makefile
 skin_default/piconbg/Makefile
 skin_default/screens/Makefile
 ])
