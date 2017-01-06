@@ -1084,6 +1084,14 @@
 		<widget name="yellow" position="423,325" size="150,20" zPosition="1" font="Regular;20" halign="left" valign="center" backgroundColor="window-bg" transparent="1"/>
 		<widget name="blue" position="618,325" size="150,20" zPosition="1" font="Regular;20" halign="left" valign="center" backgroundColor="window-bg" transparent="1"/>
 	</screen>
+	<screen name="NetworkSetPassword" position="0,0" size="541,720" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="MenuPanel"/>
+		<panel name="MenuRed2Panel"/>
+		<panel name="MenuGreen2Panel"/>
+		<panel name="MenuYellow2Panel"/>
+		<panel name="MenuBlue2Panel"/>
+		<widget name="passwd" position="30,107" size="458,36" font="Bold;20" transparent="0" zPosition="1"/>
+	</screen>
 	<screen name="AdapterSetup" position="center,center" size="560,550">
 		<widget name="config" position="95,0" size="320,150" transparent="0" zPosition="10" scrollbarMode="showOnDemand"/>
 		<eLabel text=" " position="75,168" zPosition="1" size="360,2" backgroundColor="#008c8c8c"/>
