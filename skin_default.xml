@@ -590,11 +590,16 @@
 		<widget source="global.CurrentTime" render="Label" position="678,47" zPosition="1" size="35,18" font="Regular;17" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top">
 			<convert type="ClockToText">Format::%S</convert>
 		</widget>
-		<ePixmap pixmap="icons/icon_update_off.png" position="209,46" size="20,20" zPosition="0" alphatest="blend"/>
-		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="209,46" size="20,20" zPosition="1" alphatest="blend">
+		<ePixmap pixmap="icons/icon_update_off.png" position="198,46" size="20,20" zPosition="0" alphatest="blend"/>
+		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="icons/icon_stableupdate.png" position="198,46" size="20,20" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="209,46" size="20,20" zPosition="1" alphatest="blend">
+		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="icons/icon_unstableupdate.png" position="198,46" size="20,20" zPosition="1" alphatest="blend">
+			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+		<ePixmap pixmap="icons/ico_stream_off.png" position="221,47" size="15,15" zPosition="0" alphatest="blend"/>
+		<widget source="session.RecordState" render="Pixmap" pixmap="icons/ico_stream.png" position="221,47" size="15,15" zPosition="1" alphatest="blend">
+			<convert type="ClientsStreaming"/>
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 		<ePixmap pixmap="icons/icon_rec_off.png" position="239,46" size="31,20" zPosition="0" alphatest="blend"/>
