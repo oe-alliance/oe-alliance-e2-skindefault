@@ -5,6 +5,7 @@ dist_install_DATA =     ask.png \
     backward_large.png \
     backward.png \
     blank.png \
+    bullet.png \
     clock.png \
     dish_scan.png \
     dish.png \
@@ -62,6 +63,8 @@ dist_install_DATA =     ask.png \
     icon_rec_off.png \
     icon_rec.png \
     icon_stableupdate.png \
+    ico_stream.png \
+    ico_stream_off.png \
     icon_txt_off.png \
     icon_txt.png \
     icon_unstableupdate.png \
