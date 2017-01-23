@@ -47,7 +47,6 @@ dist_install_DATA =     ask.png \
     ico_player.png \
     ico_replay.png \
     ico_service_group.png \
-    ico_stream.png \
     ico_sub_off.png \
     ico_sub_on.png \
     ico_view.png \
