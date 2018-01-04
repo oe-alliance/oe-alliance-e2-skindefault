@@ -2452,9 +2452,6 @@ self.autoResize()
 		<widget source="text" position="0,0" size="450,200" font="Regular;20" halign="center" valign="center" render="Label"/>
 		<ePixmap pixmap="icons/input_error.png" position="5,5" size="53,53" alphatest="on"/>
 	</screen>
-	<screen name="SecParameterSetup" position="center,center" size="560,550">
-		<widget name="config" position="0,0" size="560,526" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand"/>
-	</screen>
 	<screen name="SatNimSelection" position="center,center" size="560,550">
 		<widget name="nimlist" position="0,0" size="560,533" itemHeight="45" foregroundColor="window-fg" backgroundColor="window-bg" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
