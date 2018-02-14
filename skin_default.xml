@@ -1765,6 +1765,15 @@ self.autoResize()
 	<screen name="MovieListTags" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,536" itemHeight="25" font="Regular;22" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 	</screen>
+	<screen name="MovieSelectionFileManagerList" position="center,center" size="560,600">
+		<panel name="MenuRed4Panel"/>
+		<panel name="MenuGreen4Panel"/>
+		<panel name="MenuYellow4Panel"/>
+		<panel name="MenuBlue4Panel"/>
+		<ePixmap pixmap="buttons/key_menu.png" position="420,45" size="35,25" alphatest="blend" transparent="1" zPosition="1"/>
+		<widget name="files" position="0,78" size="560,477" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand"/>
+		<widget name="text" position="0,565" size="560,40" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1"/>
+	</screen>
 	<screen name="Mute" position="92,40" zPosition="10" size="90,80" backgroundColor="transparent" title="Mute" flags="wfNoBorder">
 		<ePixmap position="0,0" size="90,80" pixmap="screens/mute.png" transparent="1" alphatest="on"/>
 	</screen>
