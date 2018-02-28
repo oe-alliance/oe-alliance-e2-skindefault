@@ -1740,7 +1740,7 @@ self.autoResize()
 	<screen name="MovieListTags" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,536" itemHeight="25" font="Regular;22" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 	</screen>
-	<screen name="MovieSelectionFileManagerList" position="center,center" size="560,600">
+<!--	<screen name="MovieSelectionFileManagerList" position="center,center" size="560,600">
 		<panel name="MenuRed4Panel"/>
 		<panel name="MenuGreen4Panel"/>
 		<panel name="MenuYellow4Panel"/>
@@ -1765,6 +1765,36 @@ self.autoResize()
 			<convert type="MovieInfo">ShortDescription</convert>
 		</widget>
 		<widget name="description" position="0,565" size="560,40" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1"/>
+	</screen>-->
+	<screen name="MovieSelectionFileManagerList" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
+		<panel name="FullscreenTopPanel"/>
+		<panel name="FullscreenTitlePanel"/>
+		<panel name="FullscreenPIGPanel"/>
+		<panel name="FullscreenRed2Panel"/>
+		<panel name="FullscreenGreen2Panel"/>
+		<panel name="FullscreenYellow2Panel"/>
+		<panel name="FullscreenBlue2Panel"/>
+		<widget name="config" position="20,82" size="660,510" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="ViX-Common/buttons/FocusBar_H36x660.png" foregroundColor="window-fg" backgroundColor="black" transparent="0" enableWrapAround="1"/>
+		<widget source="Service" render="Label" position="695,410" size="240,25" zPosition="2" foregroundColor="orange" backgroundColor="black" font="Bold;22" noWrap="1" transparent="0" valign="top">
+			<convert type="MovieInfo">RecordServiceName</convert>
+		</widget>
+		<widget source="Service" render="Label" position="940,410" size="200,25" font="Bold;22" foregroundColor="orange" halign="right">
+			<convert type="ServiceTime">StartTime</convert>
+			<convert type="ClockToText">ShortDate</convert>
+		</widget>
+		<widget source="Service" render="Label" position="1150,410" zPosition="2" size="125,25" transparent="0" foregroundColor="orange" backgroundColor="black" font="Bold;22" halign="left">
+			<convert type="ServiceTime">Duration</convert>
+			<convert type="ClockToText">AsLength</convert>
+		</widget>
+		<widget source="Service" render="Label" position="695,445" size="570,200" font="Regular;20" backgroundColor="black" foregroundColor="window-fg" transparent="0" valign="top" zPosition="2">
+			<convert type="MovieInfo">MetaDescription</convert>
+		</widget>
+		<widget source="Service" render="Label" position="695,660" size="205,20" font="Regular;18" backgroundColor="window-sel-fg" foregroundColor="orange" halign="left" zPosition="2" transparent="1">
+			<convert type="MovieInfo">FileSize</convert>
+		</widget>
+		<widget name="number" position="805,660" size="150,20" font="Regular;18" backgroundColor="window-sel-fg" foregroundColor="orange" halign="left" zPosition="2" transparent="1"/>
+		<widget name="size" position="975,660" size="300,20" font="Regular;18" backgroundColor="window-sel-fg" foregroundColor="orange" halign="right" zPosition="2" transparent="1"/>
+		<widget name="description" position="20,600" size="660,60" font="Regular;20" backgroundColor="window-sel-fg" foregroundColor="orange" valign="center" halign="left" zPosition="2" transparent="1"/>
 	</screen>
 	<screen name="Mute" position="92,40" zPosition="10" size="90,80" backgroundColor="transparent" title="Mute" flags="wfNoBorder">
 		<ePixmap position="0,0" size="90,80" pixmap="screens/mute.png" transparent="1" alphatest="on"/>
