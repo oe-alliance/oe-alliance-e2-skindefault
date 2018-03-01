@@ -1693,6 +1693,7 @@ self.autoResize()
 		<panel name="FullscreenTopPanel"/>
 		<panel name="FullscreenTitlePanel"/>
 		<panel name="FullscreenPIGPanel"/>
+		<ePixmap pixmap="buttons/key_menu.png" position="1230,686" size="35,25" alphatest="blend" transparent="1"/>
 		<widget name="waitingtext" position="20,82" size="660,590" font="Regular;21" halign="center" valign="center" transparent="0" foregroundColor="window-fg" backgroundColor="black" zPosition="4"/>
 		<widget name="list" position="20,82" size="660,590" zPosition="3" scrollbarMode="showOnDemand" foregroundColor="window-fg" backgroundColor="black" transparent="0" enableWrapAround="1"/>
 		<widget name="chosenletter" position="20,82" size="660,576" foregroundColor="yellow" font="Regular;50" halign="center" valign="center" transparent="1" zPosition="4"/>
@@ -1740,32 +1741,6 @@ self.autoResize()
 	<screen name="MovieListTags" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,536" itemHeight="25" font="Regular;22" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 	</screen>
-<!--	<screen name="MovieSelectionFileManagerList" position="center,center" size="560,600">
-		<panel name="MenuRed4Panel"/>
-		<panel name="MenuGreen4Panel"/>
-		<panel name="MenuYellow4Panel"/>
-		<panel name="MenuBlue4Panel"/>
-		<widget name="config" position="0,78" size="560,420" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand"/>
-		<widget source="Service" render="Label" position="5,500" size="200,25" zPosition="2" halign="left" foregroundColor="orange" backgroundColor="window-bg" font="Bold;22" noWrap="1" transparent="0">
-			<convert type="MovieInfo">RecordServiceName</convert>
-		</widget>
-		<widget source="Service" render="Label" position="205,500" size="100,25" font="Regular;22" foregroundColor="orange" halign="right">
-			<convert type="ServiceTime">StartTime</convert>
-			<convert type="ClockToText">ShortDate</convert>
-		</widget>
-		<widget source="Service" render="Label" position="310,500" size="75,25" zPosition="2" halign="right" foregroundColor="orange" backgroundColor="window-bg" font="Bold;22" transparent="0">
-			<convert type="ServiceTime">Duration</convert>
-			<convert type="ClockToText">AsLength</convert>
-		</widget>
-		<widget source="Service" render="Label" position="390,500" size="75,25" font="Regular;22" foregroundColor="orange" halign="center">
-			<convert type="MovieInfo">FileSize</convert>
-		</widget>
-		<widget name="size" position="470,500" size="75,25" font="Regular;22" halign="right"/>
-		<widget source="Service" render="Label" position="5,530" size="560,25" font="Regular;22" foregroundColor="orange" halign="center">
-			<convert type="MovieInfo">ShortDescription</convert>
-		</widget>
-		<widget name="description" position="0,565" size="560,40" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1"/>
-	</screen>-->
 	<screen name="MovieSelectionFileManagerList" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel"/>
 		<panel name="FullscreenTitlePanel"/>
@@ -1774,6 +1749,7 @@ self.autoResize()
 		<panel name="FullscreenGreen2Panel"/>
 		<panel name="FullscreenYellow2Panel"/>
 		<panel name="FullscreenBlue2Panel"/>
+		<ePixmap pixmap="buttons/key_menu.png" position="1230,686" size="35,25" alphatest="blend" transparent="1"/>
 		<widget name="config" position="20,82" size="660,510" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="ViX-Common/buttons/FocusBar_H36x660.png" foregroundColor="window-fg" backgroundColor="black" transparent="0" enableWrapAround="1"/>
 		<widget source="Service" render="Label" position="695,410" size="240,25" zPosition="2" foregroundColor="orange" backgroundColor="black" font="Bold;22" noWrap="1" transparent="0" valign="top">
 			<convert type="MovieInfo">RecordServiceName</convert>
