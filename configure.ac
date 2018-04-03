@@ -20,4 +20,5 @@ skin_default/infobar/Makefile
 skin_default/menu/Makefile
 skin_default/piconbg/Makefile
 skin_default/screens/Makefile
+skin_default/skin_default/Makefile
 ])
