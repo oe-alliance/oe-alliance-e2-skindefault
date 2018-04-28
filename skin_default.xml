@@ -1741,7 +1741,7 @@ self.autoResize()
 	<screen name="MovieListTags" position="center,center" size="560,550">
 		<widget name="list" position="0,0" size="560,536" itemHeight="25" font="Regular;22" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 	</screen>
-	<screen name="MovieSelectionFileManagerList" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
+	<screen name="MovieManager" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
 		<panel name="FullscreenTopPanel"/>
 		<panel name="FullscreenTitlePanel"/>
 		<panel name="FullscreenPIGPanel"/>
