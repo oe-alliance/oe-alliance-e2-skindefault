@@ -3068,6 +3068,8 @@ self.autoResize()
 	</screen>
 	<screen flags="wfNoBorder" name="EPGverticalPIG" position="0,0" size="1280,720" title="Vertical Program Guide">
 		<panel name="EPGvertical"/>
+		<!-- DO NOT CHANGE THIS LINE !!!!!!!!!!!!!!! -->
+		<widget enableWrapAround="0" itemHeight="20" font="Regular;0" name="list" position="0,0" size="0,60" zPosition="-10"/>
 		<widget source="session.VideoPicture" render="Pig" position="770,128" size="495,280" backgroundColor="#ff000000" zPosition="1"/>
 		 <widget source="session.Event_Now" render="Progress" position="770,410" size="495,10" foregroundColor="#1A27408B" borderColor="#00bbbbbb" borderWidth="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
