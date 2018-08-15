@@ -15,6 +15,7 @@ dist_install_DATA =     ask.png \
     epgclock_post.png \
     epgclock_pre.png \
     epgclock_prepost.png \
+    epgclock_primetime.png \
     epgclock_selpost.png \
     epgclock_selpre.png \
     epgclock_selprepost.png \
