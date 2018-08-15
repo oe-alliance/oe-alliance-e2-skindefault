@@ -2932,7 +2932,7 @@ self.autoResize()
 		<widget source="piconCh2" render="Picon" position="365,60" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="piconCh3" render="MetrixHDXPicon" position="615,60" size="50,30" zPosition="1" alphatest="blend">
+		<widget source="piconCh3" render="Picon" position="615,60" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="piconCh4" render="Picon" position="865,60" size="50,30" zPosition="1" alphatest="blend">
