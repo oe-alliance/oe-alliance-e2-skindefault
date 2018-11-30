@@ -17,7 +17,7 @@ dist_install_DATA =     ar_AE.png \
     fr_FR.png \
     fy_NL.png \
     he_IL.png \
-    zk_HK.png \
+    zh_HK.png \
     hr_HR.png \
     hu_HU.png \
     id_ID.png \
