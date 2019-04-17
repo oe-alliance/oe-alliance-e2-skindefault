@@ -63,7 +63,7 @@ dist_install_DATA = blue_pressed.png \
     vkey_icon.png \
     vkey_last.png \
     vkey_left.png \
-    vkey_locale.png	\
+    vkey_locale.png \
     vkey_ok.png \
     vkey_red.png \
     vkey_red_l.png \
