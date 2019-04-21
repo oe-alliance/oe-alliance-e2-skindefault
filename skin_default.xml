@@ -123,6 +123,35 @@
 		</widget>
 	</screen>
 
+	<!-- START semi auto button bar. These will work with "button/Label" or "staticText" object type -->
+	<screen name="MenuRedAuto1Panel">
+		<ePixmap pixmap="buttons/red.png" position="0,e-40" size="140,40" alphatest="on"/>
+		<widget objectTypes="key_red,Button,Label" name="key_red" position="0,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+		<widget objectTypes="key_red,StaticText" source="key_red" render="Label" position="0,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+	</screen>
+	<screen name="MenuGreenAuto1Panel">
+		<ePixmap pixmap="buttons/green.png" position="140,e-40" size="140,40" alphatest="on"/>
+		<widget objectTypes="key_green,Button,Label" name="key_green" position="140,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+		<widget objectTypes="key_green,StaticText" source="key_green" render="Label" position="140,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+	</screen>
+	<screen name="MenuYellowAuto1Panel">
+		<ePixmap pixmap="buttons/yellow.png" position="280,e-40" size="140,40" alphatest="on"/>
+		<widget objectTypes="key_yellow,Button,Label" name="key_yellow" position="280,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#a08500" transparent="1"/>
+		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Label" position="280,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#a08500" transparent="1"/>
+	</screen>
+	<screen name="MenuBlueAuto1Panel">
+		<ePixmap pixmap="buttons/blue.png" position="420,e-40" size="140,40" alphatest="on"/>
+		<widget objectTypes="key_blue,Button,Label" name="key_blue" position="420,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
+		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Label" position="420,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
+	</screen>
+	<screen name="ButtonBarAuto1Panel">
+		<panel name="MenuRedAuto1Panel" conditional="key_red"/>
+		<panel name="MenuGreenAuto1Panel" conditional="key_green"/>
+		<panel name="MenuYellowAuto1Panel" conditional="key_yellow"/>
+		<panel name="MenuBlueAuto1Panel" conditional="key_blue"/>
+	</screen>
+	<!-- END semi auto button bar --> 
+
 	<screen name="MenuRed1Panel">
 		<ePixmap pixmap="buttons/red.png" position="0,e-40" size="140,40" alphatest="on"/>
 		<widget name="key_red" position="0,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
@@ -1008,10 +1037,7 @@
 	<screen name="TimerEditList" position="center,center" size="560,550">
 		<widget name="timerlist" position="0,0" size="560,384" itemHeight="48" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 		<widget name="description" position="0,e-155" size="560,115" font="Regular;18" halign="center" valign="center" transparent="0"/>
-		<panel name="MenuRed1Panel"/>
-		<panel name="MenuGreen1Panel"/>
-		<panel name="MenuYellow1Panel"/>
-		<panel name="MenuBlue1Panel"/>
+		<panel name="ButtonBarAuto1Panel"/>
 		<ePixmap pixmap="buttons/key_info.png" position="525,485" size="35,25" alphatest="blend" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="TimerEntry" position="center,center" size="560,550">
