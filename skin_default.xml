@@ -124,6 +124,7 @@
 	</screen>
 
 	<!-- START semi auto button bar. These will work with "button/Label" or "staticText" object type -->
+	<!-- This can be used to replace combinations of MenuXXXX1Panel and MenuXXXX2Panel -->
 	<screen name="MenuRedAuto1Panel">
 		<ePixmap pixmap="buttons/red.png" position="0,e-40" size="140,40" alphatest="on"/>
 		<widget objectTypes="key_red,Button,Label" name="key_red" position="0,e-40" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
