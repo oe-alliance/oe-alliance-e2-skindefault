@@ -247,8 +247,7 @@
 		</widget>
 	</screen>
 	<screen name="Setup" position="center,center" size="560,600">
-		<panel name="MenuRed4Panel"/>
-		<panel name="MenuGreen4Panel"/>
+		<panel name="ButtonBarAuto1Panel"/>
 		<widget name="HelpWindow" pixmap="buttons/vkey_icon.png" position="450,540" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="buttons/key_text.png" position="0,500" zPosition="1" size="35,25" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
