@@ -10,8 +10,6 @@ AM_PATH_PYTHON
 AC_OUTPUT([
 Makefile
 fonts/Makefile
-skin_1080/Makefile
-skin_1080/buttons/Makefile
 skin_default/Makefile
 skin_default/buttons/Makefile
 skin_default/countries/Makefile
