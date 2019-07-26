@@ -62,13 +62,16 @@ dist_install_DATA =     ask.png \
     icon_hd_on.png \
     icon_rec_off.png \
     icon_rec.png \
-    icon_stableupdate.png \
     ico_stream.png \
     ico_stream_off.png \
     icon_txt_off.png \
     icon_txt.png \
+    icon_stableupdate.png \
     icon_unstableupdate.png \
     icon_update_off.png \
+    update_off.png \
+    update_stable.png \
+    update_unstable.png \
     input_error.png \
     input_info.png \
     input_keyboard-configured.png \
