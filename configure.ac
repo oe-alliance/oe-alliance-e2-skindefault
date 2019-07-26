@@ -12,6 +12,7 @@ Makefile
 fonts/Makefile
 skin_default/Makefile
 skin_default/buttons/Makefile
+skin_default/icons/Makefile
 skin_default/countries/Makefile
 skin_default/epg/Makefile
 skin_default/extensions/Makefile
