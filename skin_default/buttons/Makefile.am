@@ -2,31 +2,16 @@ installdir = $(datadir)/enigma2/skin_default/buttons
 
 dist_install_DATA = blue_pressed.png \
     blue.png \
-    blue_circle.png \
-    blue_oval.png \
-    blue_rectangle.png \
-    blue_round.png \
-    blue_square.png \
-    button_blue.png \
     button_blue_off.png \
-    button_green.png \
+    button_blue.png \
     button_green_off.png \
-    button_red.png \
+    button_green.png \
     button_red_off.png \
-    button_yellow.png \
+    button_red.png \
     button_yellow_off.png \
+    button_yellow.png \
     green-big.png \
     green.png \
-    green_circle.png \
-    green_oval.png \
-    green_rectangle.png \
-    green_round.png \
-    green_square.png \
-    key-blue.png \
-    key-exit.png \
-    key-green.png \
-    key-red.png \
-    key-yellow.png \
     key_0.png \
     key_1.png \
     key_2.png \
@@ -45,15 +30,15 @@ dist_install_DATA = blue_pressed.png \
     key_red.png \
     key_text.png \
     key_yellow.png \
+    key-blue.png \
+    key-exit.png \
+    key-green.png \
+    key-red.png \
+    key-yellow.png \
     mp_buttons.png \
     rec.png \
     red-big.png \
     red.png \
-    red_circle.png \
-    red_oval.png \
-    red_rectangle.png \
-    red_round.png \
-    red_square.png \
     vkey_all.png \
     vkey_backspace.png \
     vkey_bg.png \
@@ -102,9 +87,4 @@ dist_install_DATA = blue_pressed.png \
     vkey_yellow_l.png \
     vkey_yellow_m.png \
     vkey_yellow_r.png \
-    yellow.png \
-    yellow_circle.png \
-    yellow_oval.png \
-    yellow_rectangle.png \
-    yellow_round.png \
-    yellow_square.png
+    yellow.png
