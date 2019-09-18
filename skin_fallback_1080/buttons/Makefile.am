@@ -2,6 +2,38 @@ installdir = $(datadir)/enigma2/skin_fallback_1080/buttons
 
 dist_install_DATA = blue.png \
     green.png \
+    key_0 \
+    key_1 \
+    key_2 \
+    key_3 \
+    key_4 \
+    key_5 \
+    key_6 \
+    key_7 \
+    key_8 \
+    key_9 \
+    key_audio \
+    key_blue \
+    key_channel \
+    key_exit \
+    key_f1 \
+    key_f2 \
+    key_f3 \
+    key_green \
+    key_help \
+    key_info \
+    key_left \
+    key_menu \
+    key_next \
+    key_ok \
+    key_prev \
+    key_prevnext \
+    key_red \
+    key_right \
+    key_text \
+    key_tv \
+    key_video \
+    key_yellow \
     red.png \
     vkey_backspace.png \
     vkey_bg_l.png \
