@@ -2,38 +2,38 @@ installdir = $(datadir)/enigma2/skin_fallback_1080/buttons
 
 dist_install_DATA = blue.png \
     green.png \
-    key_0 \
-    key_1 \
-    key_2 \
-    key_3 \
-    key_4 \
-    key_5 \
-    key_6 \
-    key_7 \
-    key_8 \
-    key_9 \
-    key_audio \
-    key_blue \
-    key_channel \
-    key_exit \
-    key_f1 \
-    key_f2 \
-    key_f3 \
-    key_green \
-    key_help \
-    key_info \
-    key_left \
-    key_menu \
-    key_next \
-    key_ok \
-    key_prev \
-    key_prevnext \
-    key_red \
-    key_right \
-    key_text \
-    key_tv \
-    key_video \
-    key_yellow \
+    key_0.png \
+    key_1.png \
+    key_2.png \
+    key_3.png \
+    key_4.png \
+    key_5.png \
+    key_6.png \
+    key_7.png \
+    key_8.png \
+    key_9.png \
+    key_audio.png \
+    key_blue.png \
+    key_channel.png \
+    key_exit.png \
+    key_f1.png \
+    key_f2.png \
+    key_f3.png \
+    key_green.png \
+    key_help.png \
+    key_info.png \
+    key_left.png \
+    key_menu.png \
+    key_next.png \
+    key_ok.png \
+    key_prev.png \
+    key_prevnext.png \
+    key_red.png \
+    key_right.png \
+    key_text.png \
+    key_tv.png \
+    key_video.png \
+    key_yellow.png \
     red.png \
     vkey_backspace.png \
     vkey_bg_l.png \
