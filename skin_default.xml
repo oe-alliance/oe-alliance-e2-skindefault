@@ -61,6 +61,12 @@
 		<alias name="ChoiceList" font="Regular" size="20" height="25"/>
 		<alias name="TextNormal" font="Regular" size="20" height="24"/>
 	</fonts>
+
+	<switchpixmap>
+		<pixmap name="menu_on" filename="icons/menu_on.png"/>
+		<pixmap name="menu_off" filename="icons/menu_off.png"/>
+	</switchpixmap>
+
 	<!-- template -->
 	<screen name="FullscreenTopPanel">
 		<ePixmap pixmap="screens/fs-bg-top.png" position="0,0" size="1280,70" zPosition="-1"/>
