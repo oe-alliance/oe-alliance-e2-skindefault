@@ -6,5 +6,7 @@ dist_install_DATA = update_off.png \
     input_message.png \
     input_question.png \
     input_warning.png \
+    menu_on.png \
+    menu_off.png \
     update_stable.png \
     update_unstable.png
