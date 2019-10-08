@@ -56,6 +56,7 @@
 		<font filename="/usr/share/fonts/lcd.ttf" name="LCD" scale="100"/>
 		<font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="90" replacement="1"/>
 		<font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100"/>
+		<font filename="/usr/share/fonts/andale.ttf" name="Fixed" scale="100"/>
 		<!-- Aliases that should be present -->
 		<alias name="Body" font="Regular" size="20" height="25"/>
 		<alias name="ChoiceList" font="Regular" size="20" height="25"/>
@@ -2511,7 +2512,7 @@ self.autoResize()
 	<screen name="SoftcamSetup" position="center,center" size="560,550">
 		<panel name="ButtonBarAuto1Panel"/>
 		<widget name="config" position="0,0" size="560,180" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20"/>
-		<widget name="info" position="0,190" size="560,370" scrollbarMode="showOnDemand" halign="center" font="Regular;20"/>
+		<widget name="info" position="0,190" size="560,370" scrollbarMode="showOnDemand" halign="center" font="Fixed;20"/>
 	</screen>	
 	<screen name="CCcamInfoMain" position="center,center" size="560,550">
 		<widget name="menu" position="0,0" size="560,450" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
