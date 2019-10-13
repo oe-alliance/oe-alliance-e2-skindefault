@@ -1183,6 +1183,16 @@
 		<widget source="introduction" render="Label" position="10,615" size="503,30" font="Regular;19" halign="center" valign="center" backgroundColor="window-bg" transparent="1"/>
 		<panel name="MenuRed2Panel"/>
 	</screen>
+	<!-- Password -->
+	<screen name="NetworkPassword" position="center,center" size="560,550">
+		<widget name="config" position="0,0" size="560,400" itemHeight="38" font="Regular;28" transparent="0" zPosition="10" scrollbarMode="showOnDemand"/>
+		<ePixmap pixmap="div-h.png" position="10,610" zPosition="1" size="503,2"/>
+		<widget name="HelpWindow" pixmap="buttons/vkey_icon.png" position="450,360" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
+		<widget name="description" position="10,615" size="503,30" font="Regular;19" halign="center" valign="center" backgroundColor="window-bg" transparent="1"/>
+		<panel name="MenuRed2Panel"/>
+		<panel name="MenuGreen2Panel"/>
+		<panel name="MenuYellow2Panel"/>
+	</screen>
 	<!-- Nameserver -->
 	<screen name="NameserverSetup" position="center,center" size="560,400" title="Nameserver setup">
 		<panel name="MenuRed4Panel"/>
