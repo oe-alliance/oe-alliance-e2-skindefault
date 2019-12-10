@@ -25,6 +25,7 @@ dist_install_DATA = arrowdown.png \
     progress_small.png \
     rc.png \
     rcold.png \
+    skin.xml \
     slider_back.png \
     slider.png \
     testscreen.png \
