@@ -1,0 +1,5 @@
+<skin>
+	<!-- This is a template for the emergency skin to enable the emergency skin to be found by distros using the new SkinSelector.py code. -->
+	<include filename="../skin_default.xml" />
+	<include filename="../skin.xml" />
+</skin>
