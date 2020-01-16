@@ -21,6 +21,7 @@
 		<color name="key_blue" value="#0018188b"/>
 		<color name="key_green" value="#001f771f"/>
 		<color name="key_red" value="#009f1313"/>
+		<color name="key_text" value="#00ffffff"/>
 		<color name="key_yellow" value="#00a08500"/>
 		<color name="secondBG" value="#18101214"/>
 		<color name="secondFG" value="#00879ce1"/>
