@@ -96,35 +96,35 @@
 		</widget>
 	</screen>
 	<screen name="FullscreenRed1Panel">
-		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="key_red" position="130,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenGreen1Panel">
-		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="key_green" position="420,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenYellow1Panel">
-		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="key_yellow" position="710,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenBlue1Panel">
-		<ePixmap pixmap="buttons/blue.png" position="960,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/blue.png" position="960,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="key_blue" position="1000,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenRed2Panel">
-		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_red" render="Label" position="130,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenGreen2Panel">
-		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_green" render="Label" position="420,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenYellow2Panel">
-		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_yellow" render="Label" position="710,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 	<screen name="FullscreenBlue2Panel">
-		<ePixmap pixmap="buttons/blue.png" position="960,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/blue.png" position="960,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_blue" render="Label" position="1000,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 	</screen>
 
@@ -407,13 +407,13 @@
 			<convert type="ValueRange">3,3</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap pixmap="buttons/red.png" position="60,118" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="60,118" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_red" position="95,118" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/green.png" position="250,118" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/green.png" position="250,118" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_green" position="285,118" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/yellow.png" position="440,118" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/yellow.png" position="440,118" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_yellow" position="475,118" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/blue.png" position="630,118" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/blue.png" position="630,118" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_blue" position="665,118" size="150,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="SecondInfoBar" flags="wfNoBorder" position="center,360" size="974,350" backgroundColor="transparent">
@@ -605,13 +605,13 @@
 			<convert type="ValueRange">3,3</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap pixmap="buttons/red.png" position="60,320" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="60,320" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_red" position="95,320" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/green.png" position="250,320" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/green.png" position="250,320" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_green" position="285,320" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/yellow.png" position="440,320" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/yellow.png" position="440,320" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_yellow" position="475,320" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/blue.png" position="630,320" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/blue.png" position="630,320" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_blue" position="665,320" size="150,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="MoviePlayer" flags="wfNoBorder" position="center,520" size="750,190" title="InfoBar" backgroundColor="transparent">
@@ -687,11 +687,11 @@
 		<widget source="session.CurrentService" render="Label" position="455,120" size="200,20" font="Regular;18" halign="right" valign="center" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1">
 			<convert type="ServicePosition">Remaining</convert>
 		</widget>
-		<ePixmap pixmap="buttons/green.png" position="90,150" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/green.png" position="90,150" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_green" position="125,150" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/yellow.png" position="290,150" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/yellow.png" position="290,150" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_yellow" position="325,150" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/blue.png" position="490,150" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/blue.png" position="490,150" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_blue" position="525,150" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="DVDPlayer" flags="wfNoBorder" position="center,520" size="750,190" backgroundColor="transparent">
@@ -983,13 +983,13 @@
 			<convert type="ValueRange">3,3</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap pixmap="buttons/red.png" position="60,265" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="60,265" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_red" position="95,265" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/green.png" position="250,265" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/green.png" position="250,265" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_green" position="285,265" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/yellow.png" position="440,265" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/yellow.png" position="440,265" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_yellow" position="475,265" size="130,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/blue.png" position="630,265" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/blue.png" position="630,265" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_blue" position="665,265" size="150,25" font="Regular;20" foregroundColor="menu-buttons-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="MediaPlayer" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
@@ -1128,10 +1128,10 @@
 	</screen>
 	<screen name="ServiceInfo" position="center,center" size="780,350" title="Service info">
 		<panel name="ServiceInfoSimple"/>
-		<ePixmap pixmap="buttons/red.png" position="0,325" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/green.png" position="200,325" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/yellow.png" position="395,325" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/blue.png" position="590,325" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="0,325" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/green.png" position="200,325" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="395,325" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/blue.png" position="590,325" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="red" position="26,325" size="150,20" zPosition="1" font="Regular;20" halign="left" valign="center" backgroundColor="window-bg" transparent="1"/>
 		<widget name="green" position="228,325" size="150,20" zPosition="1" font="Regular;20" halign="left" valign="center" backgroundColor="window-bg" transparent="1"/>
 		<widget name="yellow" position="423,325" size="150,20" zPosition="1" font="Regular;20" halign="left" valign="center" backgroundColor="window-bg" transparent="1"/>
@@ -1280,16 +1280,16 @@
 	</screen>
 	<screen name="AudioSelection" position="center,center" size="520,350">
 		<widget name="config" position="80,0" size="400,150" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand"/>
-		<widget source="key_red" render="Pixmap" pixmap="buttons/red.png" position="40,0" size="25,25" alphatest="blend" zPosition="1">
+		<widget source="key_red" render="Pixmap" pixmap="buttons/red.png" position="40,0" size="25,25" alphatest="blend" zPosition="1" scale="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_green" render="Pixmap" pixmap="buttons/green.png" position="40,25" size="25,25" alphatest="blend" zPosition="1">
+		<widget source="key_green" render="Pixmap" pixmap="buttons/green.png" position="40,25" size="25,25" alphatest="blend" zPosition="1" scale="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_yellow" render="Pixmap" pixmap="buttons/yellow.png" position="40,50" size="25,25" alphatest="blend" zPosition="1">
+		<widget source="key_yellow" render="Pixmap" pixmap="buttons/yellow.png" position="40,50" size="25,25" alphatest="blend" zPosition="1" scale="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_blue" render="Pixmap" pixmap="buttons/blue.png" position="40,75" size="25,25" alphatest="blend" zPosition="1">
+		<widget source="key_blue" render="Pixmap" pixmap="buttons/blue.png" position="40,75" size="25,25" alphatest="blend" zPosition="1" scale="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget source="streams" render="Listbox" position="10,155" size="500,180" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand">
@@ -1588,13 +1588,13 @@ self.autoResize()
 		<widget name="list" position="0,75" size="1280,85" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" EntryFontWrap="no"/>
 		<widget name="timeline_now" position="0,75" zPosition="3" size="19,85" pixmap="epg/timeline-now.png" alphatest="on"/>
 		<ePixmap pixmap="buttons/key_menu.png" position="20,166" size="35,25" alphatest="blend" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/red.png" position="90,166" size="25,25" alphatest="blend" transparent="1" zPosition="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,166" size="25,25" alphatest="blend" transparent="1" zPosition="1" scale="1"/>
 		<widget name="key_red" position="130,166" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="buttons/green.png" position="380,166" size="25,25" alphatest="blend" transparent="1" zPosition="1"/>
+		<ePixmap pixmap="buttons/green.png" position="380,166" size="25,25" alphatest="blend" transparent="1" zPosition="1" scale="1"/>
 		<widget name="key_green" position="420,166" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="buttons/yellow.png" position="670,166" size="25,25" alphatest="blend" transparent="1" zPosition="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="670,166" size="25,25" alphatest="blend" transparent="1" zPosition="1" scale="1"/>
 		<widget name="key_yellow" position="710,166" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="buttons/blue.png" position="960,166" size="25,25" alphatest="blend" transparent="1" zPosition="1"/>
+		<ePixmap pixmap="buttons/blue.png" position="960,166" size="25,25" alphatest="blend" transparent="1" zPosition="1" scale="1"/>
 		<widget name="key_blue" position="1000,166" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot.png" position="0,160" size="1280,40" zPosition="-1"/>
 	</screen>
@@ -1611,13 +1611,13 @@ self.autoResize()
 		<widget name="datetime" position="510,14" size="250,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left"/>
 		<widget name="duration" position="760,14" size="150,22" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" noWrap="1" valign="top" halign="left"/>
 		<widget name="FullDescription" position="54,50" size="870,140" font="Regular;22" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1"/>
-		<widget name="red" pixmap="buttons/red.png" position="100,213" size="25,25" alphatest="blend" zPosition="3"/>
+		<widget name="red" pixmap="buttons/red.png" position="100,213" size="25,25" alphatest="blend" zPosition="3" scale="1"/>
 		<widget name="key_red" position="140,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<widget name="green" pixmap="buttons/green.png" position="300,213" size="25,25" alphatest="blend"/>
+		<widget name="green" pixmap="buttons/green.png" position="300,213" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_green" position="340,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<widget name="yellow" pixmap="buttons/yellow.png" position="500,213" size="25,25" alphatest="blend"/>
+		<widget name="yellow" pixmap="buttons/yellow.png" position="500,213" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_yellow" position="540,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<widget name="blue" pixmap="buttons/blue.png" position="700,213" size="25,25" alphatest="blend"/>
+		<widget name="blue" pixmap="buttons/blue.png" position="700,213" size="25,25" alphatest="blend" scale="1"/>
 		<widget name="key_blue" position="740,213" size="130,25" font="Regular;20" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="EventViewSimple" position="center,460" size="980,250" backgroundColor="transparent" flags="wfNoBorder">
@@ -2198,7 +2198,7 @@ self.autoResize()
 		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
 		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
 		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="blend"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
 	</screen>
@@ -2245,7 +2245,7 @@ self.autoResize()
 		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
 	</screen>
@@ -2266,7 +2266,7 @@ self.autoResize()
 		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
 	</screen>
@@ -2307,7 +2307,7 @@ self.autoResize()
 		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
-		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,680" size="1280,40" zPosition="-1"/>
 	</screen>
@@ -2318,8 +2318,8 @@ self.autoResize()
 		<widget source="global.CurrentTime" render="Label" position="770,57" zPosition="1" size="50,20" font="Regular;20" foregroundColor="foreground" backgroundColor="#27d9dee2" halign="right" transparent="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<ePixmap pixmap="buttons/red.png" position="45,98" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/green.png" position="240,98" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="45,98" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/green.png" position="240,98" size="25,25" alphatest="blend" scale="1"/>
 		<ePixmap pixmap="buttons/button_off.png" position="435,98" size="25,25" alphatest="blend"/>
 		<ePixmap pixmap="buttons/button_off.png" position="630,98" size="25,25" alphatest="blend"/>
 		<widget source="key_red" render="Label" position="66,97" zPosition="1" size="150,25" font="Regular;20" halign="center" valign="center" backgroundColor="darkgrey" foregroundColor="foreground" transparent="1"/>
@@ -2345,7 +2345,7 @@ self.autoResize()
 		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
 		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" zPosition="11" size="37,70" transparent="1" alphatest="blend"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
 	</screen>
@@ -2450,9 +2450,9 @@ self.autoResize()
 		<widget source="global.CurrentTime" render="Label" position="770,57" zPosition="1" size="50,20" font="Regular;20" foregroundColor="foreground" halign="right" transparent="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<ePixmap pixmap="buttons/red.png" position="45,98" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/green.png" position="240,98" size="25,25" alphatest="blend"/>
-		<ePixmap pixmap="buttons/yellow.png" position="435,98" size="25,25" alphatest="blend"/>
+		<ePixmap pixmap="buttons/red.png" position="45,98" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/green.png" position="240,98" size="25,25" alphatest="blend" scale="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="435,98" size="25,25" alphatest="blend" scale="1"/>
 		<ePixmap pixmap="buttons/button_off.png" position="630,98" size="25,25" alphatest="blend"/>
 		<widget source="key_red" render="Label" position="73,97" zPosition="1" size="150,25" font="Regular;20" halign="center" valign="center" backgroundColor="darkgrey" foregroundColor="foreground" transparent="1"/>
 		<widget source="key_green" render="Label" position="268,97" zPosition="1" size="150,25" font="Regular;20" halign="center" valign="center" backgroundColor="darkgrey" foregroundColor="foreground" transparent="1"/>
@@ -2916,11 +2916,11 @@ self.autoResize()
 		<widget source="status" render="Label" position="10,180" size="540,100" font="Regular;20" halign="center" valign="center" backgroundColor="#25062748" transparent="1"/>
 	</screen>
 	<screen name="UserInterfacePositioner" position="0,0" size="e,e" backgroundColor="bluetransparent">
-		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/red.png" position="90,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_red" render="Label" position="130,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="grey" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/green.png" position="380,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_green" render="Label" position="420,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="grey" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1"/>
+		<ePixmap pixmap="buttons/yellow.png" position="670,686" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget source="key_yellow" render="Label" position="710,686" size="240,25" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="grey" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<widget name="config" position="465,285" size="350,130" foregroundColor="grey" backgroundColor="bluetransparent" font="Regular;22"/>
 		<ePixmap pixmap="div-h.png" position="440,520" zPosition="1" size="400,2"/>
