@@ -1850,6 +1850,14 @@ self.autoResize()
 		<widget name="number" position="0,0" size="434,50" backgroundColor="transparent" transparent="1" font="Regular;48" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 		<widget name="servicename" position="0,40" size="434,60" backgroundColor="transparent" transparent="1" font="Regular;30" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 	</screen>
+	<screen name="NumberZapPicon" title="Channel" position="150,67" size="651,300" backgroundColor="transparent" flags="wfNoBorder">
+		<widget name="channel" position="0,0" size="180,90" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget name="number" position="180,0" size="150,90" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget name="servicename" position="0,67" size="651,90" backgroundColor="transparent" transparent="1" font="Regular;33" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget source="Service" render="Picon" position="0,160" size="220,132" alphatest="blend" backgroundColor="background" transparent="1">
+			<convert type="ServiceName">Reference</convert>
+		</widget>		
+	</screen>	
 	<screen name="HistoryZapSelector" position="center,center" size="620,300">
 		<widget source="menu" render="Listbox" position="0,0" size="620,300" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
