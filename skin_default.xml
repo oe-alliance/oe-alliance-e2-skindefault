@@ -3167,5 +3167,15 @@ self.autoResize()
 		</widget>
 		<eLabel position="770,500" size="495,1" backgroundColor="#00bbbbbb" />
 	</screen>
-	<!-- EPGvertical -->
+	<!-- EPGServiceNumberSelection -->
+	<screen name="EPGServiceNumberSelection" position="c-500,c-65" size="1000,130" backgroundColor="foreground" zPosition="5" flags="wfNoBorder">
+		<eLabel position="1,1" size="e-2,e-2" backgroundColor="background" />
+		<widget source="service" render="Picon" position="20,c-33" size="110,66" alphatest="blend" backgroundColor="background" transparent="1" zPosition="5">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget name="number" position="170,0" size="100,e" font="Regular;42" backgroundColor="background" foregroundColor="foreground" transparent="1" zPosition="5" valign="center" halign="right" />
+		<widget source="service" render="Label" position="300,0" size="690,e" font="Regular;42" backgroundColor="background" foregroundColor="foreground" transparent="1" zPosition="5" valign="center" halign="left">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+	</screen>
 </skin>
