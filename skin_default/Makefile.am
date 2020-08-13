@@ -42,4 +42,5 @@ dist_install_DATA = arrowdown.png \
     vkey_shift.png \
     vkey_shift_sel.png \
     vkey_space.png \
-    vkey_text.png
+    vkey_text.png \
+    yellow_circle23x23.png
