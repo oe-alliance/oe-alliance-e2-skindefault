@@ -2257,10 +2257,24 @@ self.autoResize()
 	</screen>
 	<screen name="SkinSelector" position="center,center" size="560,450">
 		<widget name="Preview" position="117,0" size="280,210" alphatest="on" zPosition="0"/>
+		<widget name="preview" position="117,0" size="280,210" alphatest="on" zPosition="0"/> # For ViX
 		<widget name="SkinList" position="15,220" size="495,240" itemHeight="30" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand" enableWrapAround="1"/>
+		<widget source="skins" render="Listbox" position="15,220" size="495,240" backgroundColor="window-bg" enableWrapAround="1" foregroundColor="window-fg" scrollbarMode="showOnDemand" transparent="0">
+			<convert type="TemplatedMultiContent">
+				{
+				"template": [
+					MultiContentEntryText(pos = (0,0), size = (300,30), font = 0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1),
+					MultiContentEntryText(pos = (305,0), size = (190,30), font = 0, flags = RT_HALIGN_RIGHT | RT_VALIGN_CENTER, text = 2)
+				],
+				"fonts": [gFont("Regular",25)],
+				"itemHeight":30
+				}
+			</convert>
+		</widget> # For ViX
 		<panel name="MenuRed2Panel"/>
 		<panel name="MenuGreen2Panel"/>
 		<widget source="introduction" render="Label" position="10,604" size="503,24" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" backgroundColor="window-bg"/>
+		<widget source="description" render="Label" position="10,604" size="503,24" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" backgroundColor="window-bg"/> # For ViX
 	</screen>
 	<screen name="Standby" flags="wfNoBorder" position="0,0" size="1280,720" title="Standby" backgroundColor="black"/>
 	<screen name="SubservicesQuickzap" position="124,470" size="512,200" title="Subservices" backgroundColor="transparent" flags="wfNoBorder">
