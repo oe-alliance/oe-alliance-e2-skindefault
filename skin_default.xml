@@ -1899,9 +1899,9 @@ self.autoResize()
 		<panel name="__KeyMenuTemplate__"/>
 		<widget name="text" position="10*f,82*f" size="660*f,25*f" font="Regular;22*f"/>
 		<widget name="target" position="10*f,112*f" size="660*f,25*f" valign="center" font="Regular;22*f"/>
-		<widget name="filelist" position="10*f,142*f" size="660*f,206*f" zPosition="1" scrollbarMode="showOnDemand" selectionDisabled="1"/>
+		<widget name="filelist" position="10*f,142*f" size="660*f,200*f" zPosition="1" scrollbarMode="showOnDemand" selectionDisabled="1"/>
 		<widget name="textbook" position="10*f,356*f" size="660*f,25*f" font="Regular;22*f"/>
-		<widget name="booklist" position="15*f,386*f" size="660*f,304*f" itemHeight="25*f" font="Regular;18*f" zPosition="2" scrollbarMode="showOnDemand"/>
+		<widget name="booklist" position="15*f,386*f" size="660*f,275*f" itemHeight="25*f" font="Regular;20*f" zPosition="2" scrollbarMode="showOnDemand"/>
 	</screen>
 	<screen name="MessageBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
