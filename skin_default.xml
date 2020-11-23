@@ -2421,10 +2421,7 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	<screen name="__SkinSelector__" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<panel name="__DescriptionTemplate__"/>
-		<widget name="Preview" conditional="Preview" position="842*f,e-255*f" size="280*f,210*f" alphatest="on" zPosition="5"/>
 		<widget name="preview" conditional="preview" position="842*f,e-255*f" size="280*f,210*f" alphatest="on" zPosition="5"/>
-		<widget name="SkinList" conditional="SkinList" position="10*f,82*f" size="660*f,540*f" itemHeight="30*f" foregroundColor="window-fg" backgroundColor="window-bg" 
-			transparent="1" scrollbarMode="showOnDemand" enableWrapAround="1"/>
 		<widget source="skins" conditional="skins" render="Listbox" position="10*f,82*f" size="660*f,544*f" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
