@@ -1525,7 +1525,7 @@ self.autoResize()
 		<widget name="more_button" pixmap="epg/now_next_more.png" position="342*f,85*f" zPosition="1" size="152*f,34*f" alphatest="on" scale="1"/>
 		<widget name="now_button_sel" pixmap="epg/now_next_more_on.png" position="30*f,85*f" zPosition="1" size="152*f,34*f" alphatest="on" scale="1"/>
 		<widget name="next_button_sel" pixmap="epg/now_next_more_on.png" position="186*f,85*f" zPosition="1" size="152*f,34*f" alphatest="on" scale="1"/>
-		<widget name="more_button_sel" pixmap="epg/now_next_more_on.png" position="342*f,85*f" zPosition="1" size="152,34" alphatest="on" scale="1"/>
+		<widget name="more_button_sel" pixmap="epg/now_next_more_on.png" position="342*f,85*f" zPosition="1" size="152*f,34*f" alphatest="on" scale="1"/>
 		<widget name="now_text" position="50*f,85*f" zPosition="2" size="120*f,34*f" text="NOW" font="Regular;20*f" halign="center" valign="center" 
 			foregroundColor="#00efefef" backgroundColor="#005c5c5c" transparent="1"/>
 		<widget name="next_text" position="207*f,85*f" zPosition="2" size="120*f,34*f" text="NEXT" font="Regular;20*f" halign="center" valign="center" 
