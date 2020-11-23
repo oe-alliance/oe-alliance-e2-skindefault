@@ -473,12 +473,12 @@
 	</screen>
 	
 	<screen name="__ScrollLabelTemplate__">
-		<widget name="ScrollLabel" font="Regular;22*f" position="10*f,82*f" size="660*f,560*f" zPosition="2" split="1" 
+		<widget name="ScrollLabel" font="Regular;22*f" position="10*f,82*f" size="660*f,560*f" zPosition="2" 
 			halign="block"/>
 	</screen>
 	
 	<screen name="__AboutScrollLabelTemplate__">
-		<widget name="AboutScrollLabel" font="Regular;22*f" position="10*f,82*f" size="660*f,560*f" zPosition="2" split="1" 
+		<widget name="AboutScrollLabel" font="Regular;22*f" position="10*f,82*f" size="660*f,560*f" zPosition="2" 
 			halign="block" />
 	</screen>
 	
