@@ -103,27 +103,16 @@
 		<alias name="ServiceInfo" font="Regular" size="20*f" height="30*f"/>
 		<alias name="SelectionList" font="Regular" size="20*f" height="22*f"/>
 		<alias name="VirtualKeyBoard" font="Regular" size="28*f" height="45*f"/>
-		<alias name="HelpMenuList" font="Regular" size="23*f" height="28*f"/>
-		<alias name="HelpMenuListExt0" font="Regular" size="20*f" height="50*f"/>
-		<alias name="HelpMenuListExt1" font="Regular" size="20*f"/>
+		<alias name="HelpMenuList" font="Regular" size="24*f" height="38*f"/>
+		<alias name="HelpMenuListExt0" font="Regular" size="24*f" height="50*f"/>
+		<alias name="HelpMenuListExt1" font="Regular" size="18*f"/>
 		<alias name="PlayList" font="Regular" size="20*f" height="25*f"/>
 	</fonts>
-
-	<parameters>
-		<parameter name="VirtualKeyBoard" value="46*f,46*f"/>
-		<parameter name="PluginBrowserIcon" value="2*f,8*f,100*f,40*f"/>
-		<parameter name="PluginBrowserName" value="120*f,5*f,26*f"/>
-		<parameter name="PluginBrowserDescr" value="120*f,30*f,20*f"/>
-		<parameter name="PluginBrowserDownloadIcon" value="10*f,0,60*f,50*f"/>
-		<parameter name="PluginBrowserDownloadName" value="80*f,5*f,25*f"/>
-		<parameter name="PluginBrowserDownloadDescr" value="80*f,26*f,17*f"/>
-	</parameters>
 
 	<switchpixmap>
 		<pixmap name="menu_on" filename="icons/menu_on.png"/>
 		<pixmap name="menu_off" filename="icons/menu_off.png"/>
 	</switchpixmap>
-
 
 	<!-- template -->
 	<screen name="__FullscreenTopPanel__">
