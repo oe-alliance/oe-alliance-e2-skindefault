@@ -91,13 +91,15 @@
 		<font filename="/usr/share/fonts/andale.ttf" name="Fixed" scale="100"/>
 		<!-- Aliases that should be present -->
 		<alias name="Body" font="Regular" size="20*f" height="25*f"/>
-		<alias name="ChoiceList" font="Regular" size="20*f" height="26*f"/>
+		<alias name="ChoiceList" font="Regular" size="20*f" height="30*f"/>
 		<alias name="TextNormal" font="Regular" size="20*f" height="24*f"/>
+		<!-- Additional aliases. These are here for scaling only. These must reflect the 
+			default values in the corresponding .py files so as not to break inheritance. -->
 		<alias name="FileList" font="Regular" size="20*f" height="25*f"/>
 		<alias name="FileListMulti" font="Regular" size="20*f" height="25*f"/>
 		<alias name="ImsSelectionList" font="Regular" size="22*f" height="30*f"/><!-- Movie manager -->
-		<alias name="PluginBrowser0" font="Regular" size="26*f" height="60*f"/>
-		<alias name="PluginBrowser1" font="Regular" size="20*f"/>
+		<alias name="PluginBrowser0" font="Regular" size="20*f" height="50*f"/>
+		<alias name="PluginBrowser1" font="Regular" size="14*f"/>
 		<alias name="ServiceInfo" font="Regular" size="20*f" height="30*f"/>
 		<alias name="SelectionList" font="Regular" size="20*f" height="22*f"/>
 		<alias name="VirtualKeyBoard" font="Regular" size="28*f" height="45*f"/>
@@ -112,9 +114,9 @@
 		<parameter name="PluginBrowserIcon" value="2*f,8*f,100*f,40*f"/>
 		<parameter name="PluginBrowserName" value="120*f,5*f,26*f"/>
 		<parameter name="PluginBrowserDescr" value="120*f,30*f,20*f"/>
-		<parameter name="PluginBrowserDownloadIcon" value="0,8*f,60*f,50*f"/>
-		<parameter name="PluginBrowserDownloadName" value="67*f,5*f,26*f"/>
-		<parameter name="PluginBrowserDownloadDescr" value="74*f,30*f,20*f"/>
+		<parameter name="PluginBrowserDownloadIcon" value="10*f,0,60*f,50*f"/>
+		<parameter name="PluginBrowserDownloadName" value="80*f,5*f,25*f"/>
+		<parameter name="PluginBrowserDownloadDescr" value="80*f,26*f,17*f"/>
 	</parameters>
 
 	<switchpixmap>
@@ -1431,7 +1433,7 @@
 		<panel name="__KeyTextTemplate__"/>
 		<panel name="__TextTemplate__"/>
 		<widget name="description" position="0,0" size="0,0"/>
-		<widget name="list" position="10*f,82*f" size="660*f,572*f" scrollbarMode="showOnDemand"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" scrollbarMode="showOnDemand"/>
 	</screen>
 	<screen name="RecordTimerQuestion" position="center,center" size="234*f,198*f" zPosition="5" flags="wfNoBorder">
 		<widget name="text" position="0,0" size="0,0" font="Regular;21"/>
