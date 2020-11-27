@@ -89,25 +89,14 @@
 		<font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="90" replacement="1"/>
 		<font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100"/>
 		<font filename="/usr/share/fonts/andale.ttf" name="Fixed" scale="100"/>
-		<!-- Aliases that should be present -->
-		<alias name="Body" font="Regular" size="20*f" height="25*f"/>
-		<alias name="ChoiceList" font="Regular" size="20*f" height="30*f"/>
-		<alias name="TextNormal" font="Regular" size="20*f" height="24*f"/>
-		<!-- Additional aliases. These are here for scaling only. These must reflect the 
-			default values in the corresponding .py files so as not to break inheritance. -->
-		<!-- alias name="FileList" font="Regular" size="20*f" height="25*f"/>
-		<alias name="FileListMulti" font="Regular" size="20*f" height="25*f"/>
-		<alias name="ImsSelectionList" font="Regular" size="22*f" height="30*f"/ --><!-- Movie manager -->
-		<!-- alias name="PluginBrowser0" font="Regular" size="20*f" height="50*f"/>
-		<alias name="PluginBrowser1" font="Regular" size="14*f"/>
-		<alias name="ServiceInfo" font="Regular" size="20*f" height="30*f"/>
-		<alias name="SelectionList" font="Regular" size="20*f" height="22*f"/>
-		<alias name="VirtualKeyBoard" font="Regular" size="28*f" height="45*f"/>
-		<alias name="HelpMenuList" font="Regular" size="24*f" height="38*f"/>
-		<alias name="HelpMenuListExt0" font="Regular" size="24*f" height="50*f"/>
-		<alias name="HelpMenuListExt1" font="Regular" size="18*f"/>
-		<alias name="PlayList" font="Regular" size="20*f" height="25*f"/ -->
+		<!-- Do not add any aliases to this skin. This is the emergency skin. 
+			Adding aliases here will taint the currently active skin. -->
 	</fonts>
+	
+	<parameters>
+		<!-- Do not add any parameters to this skin. This is the emergency skin. 
+			Adding parameters here will taint the currently active skin. -->
+	</parameters>
 
 	<switchpixmap>
 		<pixmap name="menu_on" filename="icons/menu_on.png"/>
