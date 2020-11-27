@@ -1057,7 +1057,7 @@
 	<screen name="TimerEditList" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<panel name="__KeyInfoTemplate__"/>
-		<widget name="timerlist" position="10*f,82*f" size="660*f,570*f" scrollbarMode="showOnDemand" itemHeight="60*f" rowSplit="30*f" iconMargin="10*f"
+		<widget name="timerlist" position="10*f,82*f" size="660*f,540*f" scrollbarMode="showOnDemand" itemHeight="60*f" rowSplit="30*f" iconMargin="10*f"
 			setEventNameFont="Regular;22*f" setServiceNameFont="Regular;22*f" setFont="Regular;20*f" satPosLeft="166*f" zPosition="2" foregroundColor="window-fg"/>
 		<panel name="__DescriptionTemplate__"/>
 	</screen>
