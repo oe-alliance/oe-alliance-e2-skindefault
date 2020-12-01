@@ -1214,8 +1214,8 @@
 	<!-- Infomation Screens -->
 	<screen name="AboutOE" position="fill" flags="wfNoBorder">
 		<panel name="__AboutTemplate__"/>
-		<eLabel text="Skin: Default-OE-A skin, by Andy Blackburn" position="695*f, 560*f" size="575*f,30*f" font="Regular;22*f" halign="center" zPosition="1"/>
-		<eLabel text="Adapted for multi-resolution by Huevos" position="695*f, 590*f" size="575*f,30*f" font="Regular;22*f" halign="center" zPosition="1"/>
+		<eLabel conditional="lab3" text="Skin: Default-OE-A skin, by Andy Blackburn" position="695*f, 560*f" size="575*f,30*f" font="Regular;22*f" halign="center" zPosition="1"/>
+		<eLabel conditional="lab3" text="Adapted for multi-resolution by Huevos" position="695*f, 590*f" size="575*f,30*f" font="Regular;22*f" halign="center" zPosition="1"/>
 	</screen>
 	<screen name="CommitInfo" position="fill" flags="wfNoBorder">
 		<panel name="__AboutTemplate__"/>
