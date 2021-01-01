@@ -2588,7 +2588,7 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 		<ePixmap pixmap="buttons/green.png" position="40,690" size="24,24" alphatest="blend" transparent="1"/>
 		<widget source="green" render="Label" position="75,690" size="190,24" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="center" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="menu-buttons-bkgrnd2"/>
 	</screen -->
-	<screen name="TimeDateInput" position="fill" flags="wfNoBorder">
+	<screen name="TimeDateInput" position="fill" flags="wfNoBorder" zPosition="2">
 		<panel name="__SetupTemplate__"/>
 	</screen>
 	<screen name="TimeshiftState" position="center,472*f"  size="671*f,90*f" zPosition="2" backgroundColor="transpBlack" flags="wfNoBorder">
