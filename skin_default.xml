@@ -369,6 +369,12 @@
 		<ePixmap pixmap="buttons/key_0.png"  alphatest="blend" position="85*f,e-34*f" size="35*f,25*f" transparent="1" scale="1"/>
 	</screen>
 
+	<screen name="__KeyPrevZeroNextTemplateRight__">
+		<panel position="1110*f,0" size="e,e">
+			<panel name="__KeyPrevZeroNextTemplate__"/>
+		</panel>
+	</screen>
+
 	<screen name="__KeyMenuInfoTemplate__">
 		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__KeyInfoTemplate__"/>
@@ -1535,7 +1541,7 @@
 	</screen>
 	<screen name="ChoiceBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyTextTemplate__"/>
+		<panel name="__KeyPrevNextTemplate__"/>
 		<panel name="__TextTemplate__"/>
 		<widget name="description" position="0,0" size="0,0"/>
 		<widget name="list" position="10*f,82*f" size="660*f,570*f" scrollbarMode="showOnDemand"/>
@@ -2318,7 +2324,7 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 
 	<screen name="PluginBrowser" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyPrevZeroNextTemplate__"/>
+		<panel name="__KeyPrevZeroNextTemplateRight__"/>
 		<widget name="list" position="10*f,78*f" size="660*f,600*f" scrollbarMode="showOnDemand"/>
 	</screen>
 
