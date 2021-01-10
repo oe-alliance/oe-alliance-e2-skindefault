@@ -2548,7 +2548,7 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	<screen name="SkinSelector" position="fill" flags="wfNoBorder">
 		<panel name="__SkinSelector__"/>
 	</screen>
-	<screen name="Standby" flags="wfNoBorder" position="0,0" size="fill" backgroundColor="black"/>
+	<screen name="Standby" flags="wfNoBorder" position="fill" backgroundColor="black"/>
 	<screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder">
 		<ePixmap pixmap="icons/input_info.png" position="center,c-60*f" size="53*f,53*f" alphatest="on" scale="1"/>
 		<widget name="text" position="center,c+5*f" size="720*f,100*f" font="Regular;22*f" halign="center"/>
