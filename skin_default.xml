@@ -1732,10 +1732,10 @@ self.autoResize()
 	</screen>
 	<screen name="EventView" position="center,460*f" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder" zPosition="1">
 		<ePixmap position="0,0" zPosition="-1" size="980*f,250*f" pixmap="infobar/event-info-bg.png" alphatest="on" scale="1"/>
-		<widget source="Title" render="Label" position="50*f,8*f" size="400*f,30*f" font="Boldit;30*f" valign="center" halign="left" noWrap="1" 
+		<widget source="Title" render="Label" position="50*f,8*f" size="410*f,30*f" font="Boldit;30*f" valign="center" halign="left" noWrap="1" 
 		foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="icons/clock.png" position="820*f,12*f" zPosition="1" size="20*f,20*f" alphatest="blend" scale="1"/>
-		<widget source="global.CurrentTime" render="Label" position="838*f,14*f" zPosition="1" size="59*f,20*f" font="Regular;21*f" 
+		<ePixmap pixmap="icons/clock.png" position="820*f,14*f" zPosition="1" size="20*f,20*f" alphatest="blend" scale="1"/>
+		<widget source="global.CurrentTime" render="Label" position="840*f,14*f" zPosition="1" size="59*f,20*f" font="Regular;21*f" 
 			foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" valign="top" halign="right" transparent="1" noWrap="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
@@ -1743,10 +1743,10 @@ self.autoResize()
 			backgroundColor="infobar-bkgrnd" foregroundColor="infobar-frgrnd" valign="top" transparent="1" noWrap="1">
 			<convert type="ClockToText">Format::%S</convert>
 		</widget>
-		<widget name="datetime" position="510*f,14*f" size="250*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
+		<widget name="datetime" position="470*f,14*f" size="240*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
 			transparent="1" noWrap="1" valign="top" halign="left"/>
-		<widget name="duration" position="760*f,14*f" size="150*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
-			transparent="1" noWrap="1" valign="top" halign="left"/>
+		<widget name="duration" position="720*f,14*f" size="90*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
+			transparent="1" noWrap="1" valign="top" halign="right"/>
 		<widget name="FullDescription" position="54*f,50*f" size="870*f,140*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" 
 			backgroundColor="infobar_sunken" transparent="1"/>
 		<widget name="red" pixmap="buttons/red.png" position="100*f,213*f" size="25*f,25*f" alphatest="blend" zPosition="3" scale="1"/>
