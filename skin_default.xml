@@ -1730,7 +1730,7 @@ self.autoResize()
 		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__ButtonBackground__"/>
 	</screen>
-	<screen name="EventView" position="center,460*f" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder" zPosition="1">
+	<screen name="__EventViewTemplate__" position="0,0" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder" zPosition="1">
 		<ePixmap position="0,0" zPosition="-1" size="980*f,250*f" pixmap="infobar/event-info-bg.png" alphatest="on" scale="1"/>
 		<widget source="Title" render="Label" position="50*f,8*f" size="410*f,30*f" font="Boldit;30*f" valign="center" halign="left" noWrap="1" 
 		foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1" zPosition="1"/>
@@ -1749,38 +1749,15 @@ self.autoResize()
 			transparent="1" noWrap="1" valign="top" halign="right"/>
 		<widget name="FullDescription" position="54*f,50*f" size="870*f,140*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" 
 			backgroundColor="infobar_sunken" transparent="1"/>
-		<widget name="red" pixmap="buttons/red.png" position="100*f,213*f" size="25*f,25*f" alphatest="blend" zPosition="3" scale="1"/>
-		<widget name="key_red" position="140*f,213*f" size="130*f,25*f" font="Regular;20*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" 
-			halign="left" transparent="1" zPosition="1"/>
-		<widget name="green" pixmap="buttons/green.png" position="300*f,213*f" size="25*f,25*f" alphatest="blend" scale="1"/>
-		<widget name="key_green" position="340*f,213*f" size="130*f,25*f" font="Regular;20*f" foregroundColor="infobar-frgrnd" 
-			backgroundColor="infobar_collab_back" halign="left" transparent="1" zPosition="1"/>
-		<widget name="yellow" pixmap="buttons/yellow.png" position="500*f,213*f" size="25*f,25*f" alphatest="blend" scale="1"/>
-		<widget name="key_yellow" position="540*f,213*f" size="130*f,25*f" font="Regular;20*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" 
-			halign="left" transparent="1" zPosition="1"/>
-		<widget name="blue" pixmap="buttons/blue.png" position="700*f,213*f" size="25*f,25*f" alphatest="blend" scale="1"/>
-		<widget name="key_blue" position="740*f,213*f" size="130*f,25*f" font="Regular;20*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar_collab_back" 
-			halign="left" transparent="1" zPosition="1"/>
+	</screen>
+	<screen name="EventView" position="center,460*f" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder" zPosition="1">
+		<panel name="__EventViewTemplate__"/>
+		<panel position="100*f,e-36*f" size="755*f,30*f">
+			<panel name="__InfoBarButtonTemplate__"/>
+		</panel>
 	</screen>
 	<screen name="EventViewSimple" position="center,460*f" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="0,0" zPosition="-1" size="980*f,250*f" pixmap="infobar/event-info-bg.png" scale="1"/>
-		<widget source="Title" render="Label" position="50*f,8*f" size="400*f,30*f" font="Boldit;30*f" valign="center" halign="left" noWrap="1" 
-			foregroundColor="infobar_service_frgrnd" backgroundColor="infobar-bkgrnd" transparent="1"/>
-		<ePixmap pixmap="icons/clock.png" position="820*f,12*f" zPosition="1" size="20*f,20*f" alphatest="blend" scale="1"/>
-		<widget source="global.CurrentTime" render="Label" position="838*f,14*f" zPosition="1" size="59*f,20*f" font="Regular;21*f" 
-			foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" valign="top" halign="right" transparent="1" noWrap="1">
-			<convert type="ClockToText">Format:%H:%M</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="898*f,17*f" zPosition="1*f" size="35*f,18*f" font="Regular;17*f" 
-			backgroundColor="infobar-bkgrnd" foregroundColor="infobar-frgrnd" valign="top" transparent="1" noWrap="1">
-			<convert type="ClockToText">Format::%S</convert>
-		</widget>
-		<widget name="datetime" position="510*f,14*f" size="250*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
-			transparent="1" noWrap="1" valign="top" halign="left"/>
-		<widget name="duration" position="760*f,14*f" size="150*f,22*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar-bkgrnd" 
-			transparent="1" noWrap="1" valign="top" halign="left"/>
-		<widget name="FullDescription" position="55*f,50*f" size="870*f,140*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" 
-			transparent="1"/>
+		<panel name="__EventViewTemplate__"/>
 	</screen>
 	<screen name="InfoBarEventView" position="0,0" size="e,250*f" backgroundColor="infobar_sunken" flags="wfNoBorder" zPosition="1">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="e,50*f" zPosition="-1" scale="1"/>
