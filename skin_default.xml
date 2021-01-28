@@ -954,6 +954,7 @@
 			<panel name="__InfoBarTunerInfoTemplate__"/>
 		</panel>
 	</screen>
+	<!-- "QuickEPG" also called "InfobarSingleEPG" -->
 	<screen name="QuickEPG" flags="wfNoBorder" position="center,415*f" size="974*f,295*f" backgroundColor="transparent">
 		<ePixmap position="0,0" size="974*f,295*f" pixmap="infobar/quickepg-infobbar.png" alphatest="on" zPosition="-1" scale="1"/>
 		<widget source="Event" render="Label" position="25*f,15*f" size="935*f,135*f" font="Regular;22*f" foregroundColor="infobar-frgrnd" 
@@ -1190,7 +1191,6 @@
 	</screen>
 	<screen name="TimerEditList" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyInfoTemplate__"/>
 		<widget name="timerlist" position="10*f,82*f" size="660*f,540*f" scrollbarMode="showOnDemand" itemHeight="60*f" rowSplit="30*f" iconMargin="10*f"
 			setEventNameFont="Regular;22*f" setServiceNameFont="Regular;22*f" setFont="Regular;20*f" satPosLeft="166*f" zPosition="2"/>
 		<panel name="__DescriptionTemplate__"/>
@@ -1458,7 +1458,6 @@
 	</screen>
 	<screen name="ChannelSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__" />
-		<panel name="__KeyMenuInfoTemplate__"/>
 		<widget name="list" position="10*f,82*f" size="660*f,570*f" backgroundColor="black" foregroundColorEvent="event-frgrnd" 
 			foregroundColorEventSelected="#00202020" foregroundColorServiceNotAvail="verydarkgrey" serviceNumberFont="Regular;25*f" 
 			serviceNameFont="Regular;25*f" serviceInfoFont="Bold;22*f" transparent="1" zPosition="3" scrollbarMode="showOnDemand"
@@ -1510,7 +1509,6 @@
 		<eLabel position="0,0" size="590*f,e-40*f" backgroundColor="semiTranspBlack" zPosition="-1"/>
 		<eLabel position="0,e-40*f" size="e,40*f" backgroundColor="semiTranspBlack" zPosition="-1"/>
 		<panel name="__ButtonTemplate__"/>
-		<panel name="__KeyMenuInfoTemplate__"/>
 		<widget source="Title" foregroundColor="event-frgrnd" backgroundColor="black" render="Label" position="2*f,6*f" size="550*f,30*f" 
 			transparent="1" font="Regular;25*f" halign="center" valign="center"/>
 		<widget name="list" position="15*f,37*f" size="570*f,523*f" backgroundColor="black" foregroundColorEvent="event-frgrnd" 
@@ -1612,10 +1610,9 @@ self.autoResize()
 		<widget name="UnhandledKeyPixmap" pixmap="screens/unhandled-key.png" position="0,0" size="98*f,88*f" alphatest="off" scale="1"/>
 	</screen>
 <!-- EPG Screens -->
-	<!-- SingleEPG -->
+	<!-- "SingleEPG" also know as "EPGSelection" -->
 	<screen name="EPGSelection" position="fill" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__TitleBarPiconTemplate__"/>
 		<widget name="number" position="20*f,82*f" size="660*f,592*f" zPosition="5" backgroundColor="transparent" transparent="0" font="Regular;48*f" 
 			borderColor="black" borderWidth="2" valign="center" halign="center"/>
@@ -1627,7 +1624,6 @@ self.autoResize()
 	</screen>
 	<screen name="EPGSelectionMulti" position="fill" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__TitleBarPiconTemplate__"/>
 		<widget name="bouquetlist" position="20*f,130*f" size="660*f,540*f" font="Regular;22*f" itemHeight="30*f" foregroundColor="window-fg" backgroundColor="window-bg" 
 			foregroundColorSelected="window-sel-fg" backgroundColorSelected="window-sel-bg" borderColor="black" scrollbarMode="showNever" 
@@ -1654,7 +1650,6 @@ self.autoResize()
 	<!-- Pigless GridEPG -->
 	<screen name="GraphicalEPG" position="0,0" size="e,e" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="__PigLessTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<widget name="lab1" position="0,70*f" size="e,620*f" font="Regular;24*f" halign="center" valign="center" 
 			zPosition="20" backgroundColor="black" transparent="0"/>
 		<widget name="timeline_text" position="0,70*f" size="e,30*f" itemHeight="30*f" TimelineFont="Regular;20*f" backgroundColor="black" 
@@ -1668,7 +1663,6 @@ self.autoResize()
 	<screen name="GraphicalEPGPIG" position="0,0" size="e,e" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<panel name="__PigLessTemplate__"/>
 		<panel name="__MiniPIGPanel__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<widget source="Event" render="Label" position="20*f,70*f" size="577*f,30*f" halign="left" backgroundColor="black" font="Bold;24*f" noWrap="1" 
 			transparent="0" foregroundColor="orange">
 			<convert type="EventName">Name</convert>
@@ -1727,7 +1721,6 @@ self.autoResize()
 		<widget name="list" position="0,75*f" size="e,85*f" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" EntryFontWrap="no"/>
 		<widget name="timeline_now" position="0,75*f" zPosition="3" size="19*f,85*f" pixmap="epg/timeline-now.png" alphatest="on" scale="1"/>
 		<panel name="__ButtonTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__ButtonBackground__"/>
 	</screen>
 	<screen name="__EventViewTemplate__" position="0,0" size="980*f,250*f" backgroundColor="transparent" flags="wfNoBorder" zPosition="1">
@@ -1986,7 +1979,6 @@ self.autoResize()
 	</screen>
 	<screen name="LocationBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<widget name="text" position="10*f,82*f" size="660*f,25*f" font="Regular;22*f"/>
 		<widget name="target" position="10*f,112*f" size="660*f,25*f" valign="center" font="Regular;22*f"/>
 		<widget name="filelist" position="10*f,142*f" size="660*f,200*f" zPosition="1" scrollbarMode="showOnDemand" selectionDisabled="1"/>
@@ -2097,7 +2089,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	<screen name="MovieSelection" position="fill" backgroundColor="black" flags="wfNoBorder">
 		<panel name="__PigTemplate__" />
 		<panel name="__MenuListTemplate__"/>
-		<panel name="__KeyMenuInfoTemplate__"/>
 		<widget name="waitingtext" position="20*f,82*f" size="660*f,590*f" font="Regular;22*f" halign="center" valign="center" transparent="0" 
 			foregroundColor="window-fg" backgroundColor="black" zPosition="4"/>
 		<widget name="list" position="20*f,82*f" size="660*f,590*f" zPosition="3" scrollbarMode="showOnDemand" foregroundColor="window-fg" 
@@ -2134,7 +2125,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 		<eLabel position="0,0" size="590*f,e-40*f" backgroundColor="semiTranspBlack" zPosition="-1"/>
 		<eLabel position="0,e-40*f" size="e,40*f" backgroundColor="semiTranspBlack" zPosition="-1"/>
 		<panel name="__ButtonTemplate__"/>
-		<panel name="__KeyMenuInfoTemplate__"/>
 		<widget source="Title" foregroundColor="event-frgrnd" backgroundColor="black" render="Label" position="2*f,6*f" size="550*f,30*f" 
 			transparent="1" font="Regular;25*f" halign="center" valign="center"/>
 		<widget name="waitingtext" position="15*f,37*f" size="570*f,523*f" font="Regular;22*f" halign="center" valign="center" transparent="1" 
@@ -2204,7 +2194,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	</screen>
 	<screen name="NimSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyInfoTemplate__"/>
 		<widget source="nimlist" render="Listbox" position="10*f,82*f" size="660*f,592*f" scrollbarMode="showOnDemand" >
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -2439,7 +2428,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	<!-- Positioner setup position="780,123" size="1110,855" position="10*f,82*f" size="660*f,570*f" -->
 	<screen name="PositionerSetup" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyInfoTemplate__"/>
 		<widget name="list" position="10*f,82*f" size="660*f,268*f" itemHeight="26*f" font="Regular;18*f" transparent="1"/>
 		<eLabel text="Frequency:" position="14*f,350*f" size="220*f,24*f" transparent="1" font="Regular;20*f"/>
 		<widget name="frequency_value" position="234*f,350*f" size="100*f,24*f" transparent="1" font="Regular;20*f"/>
@@ -2803,7 +2791,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	</screen>
 	<screen name="SoftwareUpdateChoices" position="fill" flags="wfNoBorder">
 		<panel name="__SetupTemplate__"/>
-		<panel name="__KeyMenuTemplate__"/>
 		<widget name="text" position="10*f,440*f" size="660*f,200*f" font="Regular;22*f" zPosition="2" valign="bottom"/>
 		<panel name="__FeedsStatusTemplate__"/>
 	</screen>
