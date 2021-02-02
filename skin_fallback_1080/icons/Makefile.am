@@ -1,7 +1,8 @@
 installdir = $(datadir)/enigma2/skin_fallback_1080/icons
 
-dist_install_DATA = epgclock.png \
+dist_install_DATA = \
     bullet.png \
+    epgclock.png \
     epgclock_add.png \
     epgclock_autotimer.png \
     epgclock_post.png \
@@ -12,10 +13,10 @@ dist_install_DATA = epgclock.png \
     epgclock_selprepost.png \
     epgclock_zap.png \
     epgclock_zaprec.png \
-    expandable.png \
     expandable-plugins.png \
-    expanded.png \
+    expandable.png \
     expanded-plugins.png \
+    expanded.png \
     input_error.png \
     input_info.png \
     input_message.png \
@@ -24,10 +25,11 @@ dist_install_DATA = epgclock.png \
     lock_error.png \
     lock_off.png \
     lock_on.png \
-    menu_on.png \
+    mark_on.png \
     menu_off.png \
-    movie_play_rec.png \
+    menu_on.png \
     movie_play.png \
+    movie_play_rec.png \
     part_0_4.png \
     part_1_4.png \
     part_2_4.png \
