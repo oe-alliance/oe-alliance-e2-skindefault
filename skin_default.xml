@@ -1033,7 +1033,7 @@
 			<panel name="__InfoBarButtonYellowTemplate__"/>
 		</panel>
 		<panel position="490*f,150*f" size="165*f,25*f">
-			<panel name="__InfoBarBlueButtonBlueTemplate__"/>
+			<panel name="__InfoBarButtonBlueTemplate__"/>
 		</panel>
 	</screen>
 	<screen name="DVDPlayer" flags="wfNoBorder" position="center,520*f" size="750*f,190*f" backgroundColor="transparent"> <!-- screen needs testing -->
