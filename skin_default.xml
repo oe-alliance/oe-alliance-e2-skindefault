@@ -2263,9 +2263,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	<!-- Using Setup screen....screen name="ParentalControlChangePin" position="center,center" size="560,550">
 		<widget name="config" position="10,132" size="503,495" itemHeight="30" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand"/>
 	</screen -->
-	<screen name="ParentalControlEditor" position="center,center" size="560,550"> <!-- What is this? -->
-		<widget name="servicelist" position="0,0" size="560,526" itemHeight="30" backgroundColor="window-bg" transparent="0"/>
-	</screen>
 	<!-- Using Setup screen....screen name="ParentalControlSetup" position="center,center" size="560,550">
 		<widget name="config" position="10,132" size="503,495" itemHeight="30" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" scrollbarMode="showOnDemand"/>
 	</screen -->
@@ -2417,13 +2414,13 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	</screen>
 	
 	<!-- Scan setup -->
-	<screen flags="wfNoBorder" name="ScanSetup" position="fill">
+	<!-- Using Setup screen	<screen flags="wfNoBorder" name="ScanSetup" position="fill">
 		<panel name="__SetupTemplate__"/>
-	</screen>
+	</screen>-->
 	<!-- Scan simple -->
-	<screen flags="wfNoBorder" name="ScanSimple" position="fill">
+	<!-- Using Setup screen	<screen flags="wfNoBorder" name="ScanSimple" position="fill">
 		<panel name="__SetupTemplate__"/>
-	</screen>
+	</screen>-->
 	
 	<!-- Positioner setup position="780,123" size="1110,855" position="10*f,82*f" size="660*f,570*f" -->
 	<screen name="PositionerSetup" position="fill" flags="wfNoBorder">
