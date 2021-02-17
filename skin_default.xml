@@ -379,7 +379,7 @@
 		<panel name="__KeyMenuTemplate__"/>
 		<panel name="__KeyInfoTemplate__"/>
 	</screen>
-	
+
 	<screen name="__PigLessTemplate__">
 		<panel name="__FullscreenTopPanel__"/>
 		<panel name="__ScreenPathPanel__"/>
@@ -1539,7 +1539,7 @@
 	</screen>
 	<screen name="ChoiceBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<panel name="__KeyPrevNextTemplate__"/>
+		<!-- This was for "ExtensionsList" only, but we are not going to add that screen in skin_default as it falls back to this screen anyway. panel name="__KeyPrevNextTemplate__"/ -->
 		<panel name="__TextTemplate__"/>
 		<widget name="description" position="0,0" size="0,0"/>
 		<widget name="list" position="10*f,82*f" size="660*f,570*f" scrollbarMode="showOnDemand"/>
