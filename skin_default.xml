@@ -1539,7 +1539,12 @@
 	</screen>
 	<screen name="ChoiceBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<!-- This was for "ExtensionsList" only, but we are not going to add that screen in skin_default as it falls back to this screen anyway. panel name="__KeyPrevNextTemplate__"/ -->
+		<widget source="key_previous" conditional="key_previous" render="Pixmap" pixmap="buttons/key_prev.png" alphatest="blend" position="45*f,e-34*f" size="35*f,25*f" scale="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_next" conditional="key_next" render="Pixmap" pixmap="buttons/key_next.png" alphatest="blend" position="125*f,e-34*f" size="35*f,25*f" scale="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
 		<panel name="__TextTemplate__"/>
 		<widget name="description" position="0,0" size="0,0"/>
 		<widget name="list" position="10*f,82*f" size="660*f,570*f" scrollbarMode="showOnDemand"/>
