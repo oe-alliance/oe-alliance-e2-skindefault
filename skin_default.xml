@@ -2158,9 +2158,6 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 			pixmaps="icons/ask.png,icons/movielist.png,icons/quit.png,icons/pause.png,icons/playlist.png,icons/playlistquit.png,icons/loop.png,icons/rep.png" 
 			zPosition="10" transparent="1" alphatest="on" scale="1"/>
 	</screen>
-	<screen name="MovieListTags" position="fill" flags="wfNoBorder">
-		<panel name="ChoiceBox"/>
-	</screen>
 	<screen name="MovieManager" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<panel name="__KeyMenuTemplate__"/>
