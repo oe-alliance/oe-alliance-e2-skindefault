@@ -12,6 +12,7 @@ dist_install_DATA = \
     blank.png \
     bullet.png \
     clock.png \
+	collection.png \
     dish_scan.png \
     dish.png \
     DVI.png \
