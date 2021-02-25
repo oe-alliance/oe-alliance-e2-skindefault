@@ -12,6 +12,7 @@ dist_install_DATA = blue_pressed.png \
     button_yellow.png \
     green-big.png \
     green.png \
+    grey.png \
     key_0.png \
     key_1.png \
     key_2.png \
@@ -27,11 +28,16 @@ dist_install_DATA = blue_pressed.png \
     key_blue_fill.png \
     key_green.png \
     key_green_fill.png \
+    key_help.png \
     key_info.png \
+    key_left.png \
+    key_next.png \
     key_menu.png \
     key_ok.png \
+    key_prev.png \
     key_red.png \
     key_red_fill.png \
+    key_right.png \
     key_text.png \
     key_yellow.png \
     key_yellow_fill.png \

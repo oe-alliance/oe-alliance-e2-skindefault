@@ -1,12 +1,18 @@
 installdir = $(datadir)/enigma2/skin_default/icons
 
-dist_install_DATA =     ask.png \
+dist_install_DATA = \
+    agreen.png \
+    aoff.png \
+    ask.png \
+    ared.png \
+    ayellow.png \
     az.png \
     backward_large.png \
     backward.png \
     blank.png \
     bullet.png \
     clock.png \
+	collection.png \
     dish_scan.png \
     dish.png \
     DVI.png \
@@ -96,6 +102,7 @@ dist_install_DATA =     ask.png \
     lockBouquet.png \
     loop.png \
     marker.png \
+    mark_on.png \
     menu_on.png \
     menu_off.png \
     movie_play_rec.png \
