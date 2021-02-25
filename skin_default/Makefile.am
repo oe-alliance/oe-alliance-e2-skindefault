@@ -4,9 +4,7 @@ installdir = $(datadir)/enigma2/skin_default
 dist_install_DATA = arrowdown.png \
     arrowup.png \
     bar_ber.png \
-    bar_ber_v2.png \
     bar_snr.png \
-    bar_snr_v2.png \
     border_eventinfo.png \
     div-h.png \
     div-v.png \

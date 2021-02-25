@@ -1,7 +1,6 @@
 <skin>
-	<output id="0"><!-- set resolution first before anything loads -->
-		<resolution bpp="32" xres="1280" yres="720"/>
-	</output>
-	<include filename="../skin_default.xml"/><!-- must be included first because it contains the font definitions and colours -->
-	<include filename="../skin_default_windowstyle.xml"/>
+	<!-- This is a template for the emergency skin to enable the emergency skin to be found by distros using the new SkinSelector.py code. -->
+	<!-- <resolution xres="1280" yres="720" bpp="32" /> This allows the emergency skin resolution to be displayed in the new SkinSelector.py code. -->
+	<include filename="../skin_default.xml" />
+	<include filename="../skin.xml" />
 </skin>
