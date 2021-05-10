@@ -1,7 +1,7 @@
 installdir = $(datadir)/enigma2/skin_default/buttons
 
 dist_install_DATA = blue_pressed.png \
-    blue.png \
+    blue.svg \
     button_blue_off.png \
     button_blue.png \
     button_green_off.png \
@@ -11,7 +11,7 @@ dist_install_DATA = blue_pressed.png \
     button_yellow_off.png \
     button_yellow.png \
     green-big.png \
-    green.png \
+    green.svg \
     grey.png \
     key_0.png \
     key_1.png \
@@ -49,53 +49,53 @@ dist_install_DATA = blue_pressed.png \
     mp_buttons.png \
     rec.png \
     red-big.png \
-    red.png \
+    red.svg \
     vkey_all.png \
-    vkey_backspace.png \
+    vkey_backspace.svg \
     vkey_bg.png \
-    vkey_bg_l.png \
-    vkey_bg_m.png \
-    vkey_bg_r.png \
+    vkey_bg_l.svg \
+    vkey_bg_m.svg \
+    vkey_bg_r.svg \
     vkey_blue.png \
-    vkey_blue_l.png \
-    vkey_blue_m.png \
-    vkey_blue_r.png \
-    vkey_clear.png \
+    vkey_blue_l.svg \
+    vkey_blue_m.svg \
+    vkey_blue_r.svg \
+    vkey_clear.svg \
     vkey_clr.png \
-    vkey_delete.png \
-    vkey_enter.png \
+    vkey_delete.svg \
+    vkey_enter.svg \
     vkey_esc.png \
-    vkey_exit.png \
-    vkey_first.png \
+    vkey_exit.svg \
+    vkey_first.svg \
     vkey_green.png \
-    vkey_green_l.png \
-    vkey_green_m.png \
-    vkey_green_r.png \
+    vkey_green_l.svg \
+    vkey_green_m.svg \
+    vkey_green_r.svg \
     vkey_icon.png \
-    vkey_last.png \
-    vkey_left.png \
-    vkey_locale.png \
+    vkey_last.svg \
+    vkey_left.svg \
+    vkey_locale.svg \
     vkey_ok.png \
     vkey_red.png \
-    vkey_red_l.png \
-    vkey_red_m.png \
-    vkey_red_r.png \
-    vkey_right.png \
+    vkey_red_l.svg \
+    vkey_red_m.svg \
+    vkey_red_r.svg \
+    vkey_right.svg \
     vkey_sel.png \
-    vkey_sel_l.png \
-    vkey_sel_m.png \
-    vkey_sel_r.png \
-    vkey_shift.png \
-    vkey_shift0.png \
-    vkey_shift1.png \
-    vkey_shift2.png \
-    vkey_shift3.png \
+    vkey_sel_l.svg \
+    vkey_sel_m.svg \
+    vkey_sel_r.svg \
+    vkey_shift.svg \
+    vkey_shift0.svg \
+    vkey_shift1.svg \
+    vkey_shift2.svg \
+    vkey_shift3.svg \
     vkey_shift_sel.png \
-    vkey_space.png \
-    vkey_space_alt.png \
-    vkey_text.png \
+    vkey_space.svg \
+    vkey_space_alt.svg \
+    vkey_text.svg \
     vkey_yellow.png \
-    vkey_yellow_l.png \
-    vkey_yellow_m.png \
-    vkey_yellow_r.png \
-    yellow.png
+    vkey_yellow_l.svg \
+    vkey_yellow_m.svg \
+    vkey_yellow_r.svg \
+    yellow.svg
