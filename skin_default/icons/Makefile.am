@@ -13,6 +13,7 @@ dist_install_DATA = \
     bullet.png \
     clock.png \
 	collection.png \
+	cutting.svg \
     dish_scan.png \
     dish.png \
     DVI.png \
@@ -78,19 +79,19 @@ dist_install_DATA = \
     update_off.png \
     update_stable.png \
     update_unstable.png \
-    input_error.png \
-    input_info.png \
+    input_error.svg \
+    input_info.svg \
     input_keyboard-configured.png \
     input_keyboard.png \
-    input_message.png \
+    input_message.svg \
     input_mouse-configured.png \
     input_mouse.png \
-    input_question.png \
+    input_question.svg \
     input_rcnew-configured.png \
     input_rcnew.png \
     input_rcold-configured.png \
     input_rcold.png \
-    input_warning.png \
+    input_warning.svg \
     lcd_DVI.png \
     lcd_HDMI.png \
     lcd_Scart.png \

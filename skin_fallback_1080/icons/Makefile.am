@@ -17,11 +17,6 @@ dist_install_DATA = \
     expandable.png \
     expanded-plugins.png \
     expanded.png \
-    input_error.png \
-    input_info.png \
-    input_message.png \
-    input_question.png \
-    input_warning.png \
     lock_error.png \
     lock_off.png \
     lock_on.png \
