@@ -3371,4 +3371,8 @@ self["list"].instance.setItemHeight(int(25*f))
 			<convert type="ServiceName">Name</convert>
 		</widget>
 	</screen>
+	
+	<screen flags="wfNoBorder" name="InstallWizard" position="fill">
+		<panel name="Setup"/>
+	</screen>
 </skin>
