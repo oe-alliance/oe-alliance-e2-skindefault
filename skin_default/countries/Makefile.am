@@ -11,6 +11,7 @@ dist_install_DATA =     ar_AE.png \
     en_GB.png \
     en_US.png \
     es_ES.png \
+    es-ga.png \
     et_EE.png \
     fa_IR.png \
     fi_FI.png \
