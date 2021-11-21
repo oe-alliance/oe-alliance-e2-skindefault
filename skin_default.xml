@@ -1927,12 +1927,12 @@ self.autoResize()
 		</panel>
 	</screen>
 	<screen name="__RcPanelOld__">
-		<widget name="rc" position="0,0" size="154,500" zPosition="10" pixmaps="rc.png,rcold.png" alphatest="on" 
+		<widget name="rc" position="0,0" size="154,500" zPosition="10" pixmaps="rc.png,rcold.png" alphatest="blend" 
 			backgroundColor="black" transparent="1"/>
-		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" size="37,70" zPosition="11" alphatest="on"/>
-		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" size="37,70" zPosition="11" alphatest="on"/>
-		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" size="37,70" zPosition="11" alphatest="on"/>
-		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" size="37,70" zPosition="11" alphatest="on"/>
+		<widget name="arrowdown" pixmap="arrowdown.png" position="-100,-100" size="37,70" zPosition="11" alphatest="blend"/>
+		<widget name="arrowdown2" pixmap="arrowdown.png" position="-100,-100" size="37,70" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup" pixmap="arrowup.png" position="-100,-100" size="37,70" zPosition="11" alphatest="blend"/>
+		<widget name="arrowup2" pixmap="arrowup.png" position="-100,-100" size="37,70" zPosition="11" alphatest="blend"/>
 	</screen>
 	<screen name="__RcPanelNew__" position="fill" flags="wfNoBorder">
 		<widget name="rc" pixmaps="rc.png,rcold.png" position="0,0" zPosition="10" size="154,500" alphatest="blend" transparent="0" />
