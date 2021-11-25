@@ -6,4 +6,6 @@ dist_install_DATA = \
     bar_ber_v2.png \
     bar_snr.png \
     bar_snr_v2.png \
+    div-h.png \
+    div-v.png \
     slider.png
