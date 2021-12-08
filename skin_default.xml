@@ -2807,52 +2807,52 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	</screen>	
 	<screen name="CCcamInfoMain" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="menu" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="menu" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="CCcamInfoEcmInfoSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="CCcamInfoInfoScreen" position="fill" flags="wfNoBorder">
-		<widget name="text" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Console;20*f"/>
+		<widget name="text" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Console;20*f"/>
 	</screen>
-	<screen name="CCcamShareViewMenu" position="center,center" size="560,550">
-		<widget name="list" position="0,0" size="560,370" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
-		<eLabel text="" position="10,522" size="503,2" font="Regular;14" backgroundColor="white"/>
-		<widget name="uphops" position="10,540" size="240,25" font="Regular;20"/>
-		<widget name="cards" position="270,540" size="220,25" halign="right" font="Regular;20"/>
-		<widget name="providers" position="10,570" size="240,25" font="Regular;20"/>
-		<widget name="reshare" position="270,570" size="220,25" halign="right" font="Regular;20"/>
-		<widget name="title" position="10,600" size="480,20" halign="center" font="Regular;20"/>
+	<screen name="CCcamShareViewMenu" position="center,center" size="560*f,550*f">
+		<widget name="list" position="0,0" size="560*f,340*f" itemHeight="34*f" font="Regular;20*f" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
+		<eLabel text="" position="center,360*f" size="503*f,2*f" font="Regular;14*f" backgroundColor="white"/>
+		<widget name="uphops" position="10*f,380*f" size="240*f,25*f" font="Regular;20*f"/>
+		<widget name="cards" position="270*f,380*f" size="220*f,25*f" halign="right" font="Regular;20*f"/>
+		<widget name="providers" position="10*f,410*f" size="240*f,25*f" font="Regular;20*f"/>
+		<widget name="reshare" position="270*f,410*f" size="220*f,25*f" halign="right" font="Regular;20*f"/>
+		<widget name="title" position="10*f,440*f" size="480*f,20*f" halign="center" font="Regular;20*f"/>
 	</screen>
-	<screen name="CCcamInfoSubMenu" position="center,center" size="560,550">
-		<widget name="list" position="0,0" size="560,250" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
-		<eLabel text="" position="10,387" size="503,2" font="Regular;14" backgroundColor="white"/>
-		<widget name="info" position="10,395" size="503,165" font="Regular;16" transparent="0"/>
+	<screen name="CCcamInfoSubMenu" position="center,center" size="560*f,550*f">
+		<widget name="list" position="0,0" size="560*f,250*f" itemHeight="34*f" font="Regular;20*f" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
+		<eLabel text="" position="10*f,387*f" size="503*f,2*f" font="Regular;14*f" backgroundColor="white"/>
+		<widget name="info" position="10*f,395*f" size="503*f,165*f" font="Regular;16*f" transparent="0"/>
 	</screen>
-	<screen name="CCcamInfoServerMenu" position="center,center" size="560,550">
-		<widget name="list" position="0,0" size="560,250" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
-		<eLabel text="" position="10,387" size="503,2" font="Regular;14" backgroundColor="white"/>
-		<widget name="info" position="10,395" size="503,165" font="Regular;16" transparent="0"/>
+	<screen name="CCcamInfoServerMenu" position="center,center" size="560*f,550*f">
+		<widget name="list" position="0,0" size="560*f,250*f" itemHeight="34*f" font="Regular;20*f" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0"/>
+		<eLabel text="" position="10*f,387*f" size="503*f,2*f" font="Regular;14*f" backgroundColor="white"/>
+		<widget name="info" position="10*f,395*f" size="503*f,165*f" font="Regular;16*f" transparent="0"/>
 	</screen>
 	<screen name="CCcamInfoConfigMenu" position="fill" flags="wfNoBorder">
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="CCcamInfoRemoteBoxMenu" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="CCcamInfoShareInfo" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,8*68*f" itemHeight="68*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
-	<screen name="CCcamInfoConfigSwitcher" pposition="fill" flags="wfNoBorder">
+	<screen name="CCcamInfoConfigSwitcher" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="CCcamInfoMenuConfig" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="list" position="10*f,82*f" size="660*f,570*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
+		<widget name="list" position="10*f,82*f" size="660*f,570*f" itemHeight="34*f" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand" font="Regular;20*f"/>
 	</screen>
 	<screen name="OscamInfoMenu" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
