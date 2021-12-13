@@ -8,4 +8,5 @@ dist_install_DATA = \
     bar_snr_v2.png \
     div-h.png \
     div-v.png \
+    progress_big.png \
     slider.png
