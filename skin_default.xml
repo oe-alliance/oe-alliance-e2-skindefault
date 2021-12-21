@@ -1895,7 +1895,27 @@ self.autoResize()
 		<widget name="InfoPixmap" pixmap="icons/input_info.png" position="0,0" size="53,53" alphatest="on"/>
 		<widget name="list" position="100,100" size="520,0"/>
 		<applet type="onLayoutFinish">
-self.autoResize()
+from enigma import getDesktop, ePoint, eSize
+maxw = 520
+count = len(self.list)
+poffset = 65 if self.picon else 0
+if self["text"].text:
+	textsize = self["text"].getSize()
+	if textsize[0] &lt; textsize[1]:
+		textsize = (textsize[1], textsize[0] + 10)
+	textsize = (textsize[0] if textsize[0] &gt; maxw else maxw, textsize[1] + 25)
+	listsize = (textsize[0], 25 * count)
+	self["text"].instance.resize(eSize(*textsize))
+	self["text"].instance.move(ePoint(poffset + 10, 10))
+else:
+	textsize = (maxw, 0)
+	listsize = (maxw, 25 * count)
+self["list"].instance.resize(eSize(*listsize))
+self["list"].instance.move(ePoint(poffset, textsize[1]))
+wsizex = textsize[0] + poffset
+wsizey = textsize[1] + listsize[1]
+self.instance.resize(eSize(*(wsizex, wsizey)))
+self.instance.move(ePoint(int((getDesktop(0).size().width() - wsizex) / 2), int((getDesktop(0).size().height() - wsizey) / 2)))
 		</applet>
 	</screen>
 	<screen name="MessageBox" position="center,center" size="520,10">
