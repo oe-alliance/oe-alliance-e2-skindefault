@@ -166,4 +166,14 @@ dist_install_DATA =     ask.png \
     verticalline.png \
     verticalline-plugins.png \
     YPbPr.png \
-    za.png
+    za.png \
+    install.png \
+    installed.png \
+    installable.png \
+    remove.png \
+    upgrade.png \
+    upgradeable.png \
+    traffic_off.png \
+    traffic_red.png \
+    traffic_green.png \
+    traffic_yellow.png
