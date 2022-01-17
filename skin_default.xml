@@ -1898,7 +1898,7 @@ self.autoResize()
 from enigma import getDesktop, ePoint, eSize
 maxw = 520
 count = len(self.list)
-poffset = 65 if self.picon else 0
+poffset = 65 if hasattr(self, "picon") and self.picon else 0
 if self["text"].text:
 	textsize = self["text"].getSize()
 	if textsize[0] &lt; textsize[1]:
