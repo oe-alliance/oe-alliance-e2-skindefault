@@ -97,6 +97,8 @@ dist_install_DATA =     ask.png \
     lockBouquet.png \
     loop.png \
     marker.png \
+    mark_on.png \
+    mark_off.png \
     menu_download.png \
     menu_on.png \
     menu_off.png \
