@@ -2,6 +2,7 @@ installdir = $(datadir)/enigma2/skin_default/extensions
 
 dist_install_DATA = cfg.png \
     directory.png \
+    doc.png \
     file.png \
     gz.png \
     html.png \
