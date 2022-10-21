@@ -4,7 +4,7 @@ dist_install_DATA = cfg.png \
     directory.png \
     doc.png \
     file.png \
-    gz.png \
+    7z.png \
     html.png \
     ipk.png \
     iso.png \
@@ -17,6 +17,7 @@ dist_install_DATA = cfg.png \
     movie.png \
     music.png \
     picture.png \
+    playlist.png \
     py.png \
     pyc.png \
     rar.png \
