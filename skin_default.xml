@@ -2069,6 +2069,10 @@ newwidth = wsize[0]
 self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgpos.y() + (orgheight - wsizey) // 2)))
 		</applet>
 	</screen>
+	<screen name="TextBox" position="fill" flags="wfNoBorder">
+		<panel name="__PigTemplate__"/>
+		<widget name="text" position="10*f,82*f" size="660*f,570*f" font="Regular;22*f"/>
+	</screen>
 	<screen name="InputDeviceSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<widget source="list" render="Listbox" position="10*f,82*f" size="660*f,560*f" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" 
