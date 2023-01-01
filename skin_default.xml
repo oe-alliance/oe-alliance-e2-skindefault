@@ -2071,7 +2071,7 @@ self.instance.move(ePoint(int(orgpos.x() + (orgwidth - newwidth) // 2), int(orgp
 	</screen>
 	<screen name="TextBox" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
-		<widget name="text" position="10*f,82*f" size="660*f,570*f" font="Regular;22*f"/>
+		<widget name="text" position="10*f,82*f" size="660*f,570*f" font="Regular;22*f" scrollbarMode="showOnDemand"/>
 	</screen>
 	<screen name="InputDeviceSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
