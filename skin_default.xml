@@ -1316,16 +1316,16 @@
 		<panel name="__SetupTemplate__"/>
 	</screen>
 	<!-- Nameserver -->
-	<screen name="NameserverSetup" position="fill" flags="wfNoBorder">
+	<!-- screen name="NameserverSetup" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<panel name="__ConfigTemplate__"/>
-	</screen>
+	</screen -->
 	<!-- Mac-address -->
-	<screen name="NetworkMacSetup" position="fill" flags="wfNoBorder">
+	<!-- screen name="NetworkMacSetup" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
 		<panel name="__ConfigTemplate__"/>
 		<panel name="__IntroductionTemplate__"/>
-	</screen>
+	</screen -->
 	<!-- Network adapter selection -->
 	<screen name="NetworkAdapterSelection" position="fill" flags="wfNoBorder">
 		<panel name="__PigTemplate__"/>
