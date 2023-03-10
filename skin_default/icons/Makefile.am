@@ -16,6 +16,8 @@ dist_install_DATA = \
 	cutting.svg \
     dish_scan.png \
     dish.png \
+    dot.png \
+    dotfull.png \
     DVI.png \
     epgclock_add.png \
     epgclock_autotimer.png \
