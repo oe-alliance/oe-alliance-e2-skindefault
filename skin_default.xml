@@ -2421,7 +2421,7 @@ except Exception as e:
 		<widget name="language" position="0,0" size="0,0" font="Regular;20" transparent="1" conditional="language"/>
 	</screen>
 	<!-- Wizzard's -->
-	<screen name="StartWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
+	<screen name="_DefaultWizardTemplate_" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="black">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
 		<widget source="global.CurrentTime" render="Label" position="1130,37" size="100,28" font="Regular;26" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
 			<convert type="ClockToText">Default</convert>
@@ -2438,6 +2438,12 @@ except Exception as e:
 		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
 		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
+	</screen>
+	<screen name="StartWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
+		<panel name="_DefaultWizardTemplate_"/>
+	</screen>
+	<screen name="VideoWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
+		<panel name="_DefaultWizardTemplate_"/>
 	</screen>
 	<screen name="LanguageWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
@@ -2463,40 +2469,10 @@ except Exception as e:
 		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
 	</screen>
 	<screen name="DefaultWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
-		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
-		<widget source="global.CurrentTime" render="Label" position="1130,37" size="100,28" font="Regular;26" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Default</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="880,67" size="350,25" font="Regular;20" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Date</convert>
-		</widget>
-		<widget name="text" position="150,140" size="730,250" font="Regular;23" transparent="1" foregroundColor="window-fg" backgroundColor="black"/>
-		<widget source="list" render="Listbox" position="150,400" size="730,220" zPosition="3" backgroundColor="black" scrollbarMode="showOnDemand" transparent="0">
-			<convert type="StringList"/>
-		</widget>
-		<widget name="config" position="150,400" size="730,220" zPosition="1" transparent="1" backgroundColor="black" scrollbarMode="showOnDemand"/>
-		<panel name="RcPanel"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
-		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
+		<panel name="_DefaultWizardTemplate_"/>
 	</screen>
 	<screen name="DreamPackageWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
-		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
-		<widget source="global.CurrentTime" render="Label" position="1130,37" size="100,28" font="Regular;26" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Default</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="880,67" size="350,25" font="Regular;20" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Date</convert>
-		</widget>
-		<widget name="text" position="150,140" size="730,250" font="Regular;23" transparent="1" foregroundColor="window-fg" backgroundColor="black"/>
-		<widget source="list" render="Listbox" position="150,400" size="730,220" zPosition="3" backgroundColor="black" scrollbarMode="showOnDemand" transparent="0">
-			<convert type="StringList"/>
-		</widget>
-		<widget name="config" position="150,400" size="730,220" zPosition="1" transparent="1" backgroundColor="black" scrollbarMode="showOnDemand"/>
-		<panel name="RcPanel"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
-		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
+		<panel name="_DefaultWizardTemplate_"/>
 	</screen>
 	<screen name="TutorialWizard" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder" backgroundColor="black">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
@@ -2550,22 +2526,7 @@ except Exception as e:
 		<widget source="status" render="Label" position="160,525" size="540,60" zPosition="10" foregroundColor="#003c3c3c" backgroundColor="#27aeaeae" font="Regular;20" halign="center" valign="center" transparent="1"/>
 	</screen>
 	<screen name="DefaultSatLists" position="0,0" size="1280,720" title="Welcome..." flags="wfNoBorder">
-		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="12"/>
-		<widget source="global.CurrentTime" render="Label" position="1130,37" size="100,28" font="Regular;26" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Default</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="880,67" size="350,25" font="Regular;20" halign="right" transparent="1" foregroundColor="fullscreen-topbar-frgrnd" backgroundColor="fullscreen-topbar-bkgrnd" zPosition="13">
-			<convert type="ClockToText">Date</convert>
-		</widget>
-		<widget name="text" position="150,140" size="730,250" font="Regular;23" transparent="1" foregroundColor="window-fg" backgroundColor="black"/>
-		<widget source="list" render="Listbox" position="150,400" size="730,220" zPosition="3" scrollbarMode="showOnDemand" transparent="0">
-			<convert type="StringList"/>
-		</widget>
-		<widget name="config" position="150,400" zPosition="1" size="730,220" transparent="1" backgroundColor="black" scrollbarMode="showOnDemand"/>
-		<panel name="RcPanel"/>
-		<ePixmap pixmap="buttons/red.png" position="90,655" size="25,25" alphatest="blend" transparent="1" scale="1"/>
-		<widget name="languagetext" position="130,659" size="240,20" zPosition="1" font="Regular;20" halign="left" transparent="1" valign="top" noWrap="1" foregroundColor="menu-buttons-frgrnd" backgroundColor="fullscreen-buttons-bkgrnd"/>
-		<ePixmap pixmap="screens/fs-bg-bot-wizzard.png" position="0,645" size="1280,75" alphatest="on" transparent="1" zPosition="-1"/>
+		<panel name="_DefaultWizardTemplate_"/>
 	</screen>
 	<screen name="MessageBoxWizard" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="black">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="0"/>
